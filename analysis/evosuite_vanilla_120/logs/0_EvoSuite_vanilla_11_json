@@ -1,0 +1,1627 @@
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: org.json.JSONTokener
+* Starting Client-0
+* Connecting to master process on port 8223
+* Analyzing classpath: 
+  - /home/apaniche/mitchell/generation-scripts/projects/json/json-20180813.jar
+* Finished analyzing classpath
+* Generating tests for class org.json.JSONTokener
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 1112
+* Using seed 11
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 259 / 1112
+* Search finished after 124s and 82 generations, 28841 statements, best individual has fitness: 108.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 90%
+* Total number of goals: 175
+* Number of covered goals: 157
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 90%
+* Total number of goals: 137
+* Number of covered goals: 123
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 17
+* Number of covered goals: 17
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 91%
+* Total number of goals: 585
+* Number of covered goals: 532
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 78%
+* Total number of goals: 40
+* Number of covered goals: 31
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 19
+* Number of covered goals: 19
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 19
+* Number of covered goals: 19
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 90%
+* Total number of goals: 137
+* Number of covered goals: 123
+* Generated 72 tests with total length 236
+* Resulting test suite's coverage: 87% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 52%
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'JSONTokener_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s11/json/evosuite-tests
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: org.json.XML
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: org.json.XMLTokener
+* Starting Client-0
+* Connecting to master process on port 8223
+* Starting Client-0
+* Connecting to master process on port 8225
+* Analyzing classpath: 
+* Analyzing classpath: 
+  - /home/apaniche/mitchell/generation-scripts/projects/json/json-20180813.jar
+  - /home/apaniche/mitchell/generation-scripts/projects/json/json-20180813.jar
+* Finished analyzing classpath
+* Generating tests for class org.json.XMLTokener
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 887
+* Using seed 11
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 120 / 887
+* Finished analyzing classpath
+* Generating tests for class org.json.XML
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 1218
+* Using seed 11
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 151 / 1218
+* Search finished after 121s and 1554 generations, 337451 statements, best individual has fitness: 45.0
+* Minimizing test suite
+* Search finished after 121s and 381 generations, 102809 statements, best individual has fitness: 308.0
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 99%
+* Total number of goals: 129
+* Number of covered goals: 128
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 99%
+* Total number of goals: 158
+* Number of covered goals: 157
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 13
+* Number of covered goals: 13
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 94%
+* Total number of goals: 410
+* Number of covered goals: 387
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 50%
+* Total number of goals: 14
+* Number of covered goals: 7
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 9
+* Number of covered goals: 9
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 9
+* Number of covered goals: 9
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 99%
+* Total number of goals: 158
+* Number of covered goals: 157
+* Generated 61 tests with total length 135
+* Resulting test suite's coverage: 87% (average coverage for all fitness functions)
+* Generating assertions
+* Minimizing test suite
+[MASTER] 21:21:40.170 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.XMLTokener: java.lang.Character cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.Character cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:21:40.173 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.XMLTokener: java.lang.Character cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.Character cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:21:40.180 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.XMLTokener: java.lang.Character cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.Character cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:21:40.183 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.XMLTokener: java.lang.Character cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.Character cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:21:40.775 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.XMLTokener: java.lang.Character cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.Character cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:21:40.776 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.XMLTokener: java.lang.Character cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.Character cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:21:40.778 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.XMLTokener: java.lang.Character cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.Character cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:21:40.779 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.XMLTokener: java.lang.Character cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.Character cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:21:40.783 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.XMLTokener: java.lang.Character cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.Character cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:21:40.785 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.XMLTokener: java.lang.Character cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.Character cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:21:40.786 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.XMLTokener: java.lang.Character cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.Character cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:21:40.797 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.XMLTokener: java.lang.Character cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.Character cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:21:40.806 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.XMLTokener: java.lang.Character cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.Character cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:21:40.994 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.XMLTokener: java.lang.Character cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.Character cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:21:40.996 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.XMLTokener: java.lang.Character cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.Character cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:21:40.998 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.XMLTokener: java.lang.Character cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.Character cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:21:41.000 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.XMLTokener: java.lang.Character cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.Character cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+* Resulting test suite's mutation score: 72%
+* Compiling and checking tests
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 82%
+* Total number of goals: 234
+* Number of covered goals: 193
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 76%
+* Total number of goals: 213
+* Number of covered goals: 161
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 18
+* Number of covered goals: 18
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 74%
+* Total number of goals: 498
+* Number of covered goals: 367
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 66%
+* Total number of goals: 38
+* Number of covered goals: 25
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 11
+* Number of covered goals: 11
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 11
+* Number of covered goals: 11
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 75%
+* Total number of goals: 213
+* Number of covered goals: 160
+* Generated 64 tests with total length 86
+* Resulting test suite's coverage: 78% (average coverage for all fitness functions)
+* Generating assertions
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing tests to file
+* Writing JUnit test case 'XMLTokener_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s11/json/evosuite-tests
+* Done!
+
+* Computation finished
+[MASTER] 21:21:56.594 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.XML: java.lang.String cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:21:56.661 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.XML: java.lang.Double cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.Double cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:21:56.756 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.XML: java.lang.String cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:21:56.805 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.XML: java.lang.String cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:21:56.834 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.XML: java.lang.String cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:21:56.882 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.XML: java.lang.String cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:21:56.893 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.XML: java.lang.String cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:21:56.940 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.XML: java.lang.Integer cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:21:56.954 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.XML: java.lang.Integer cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:21:57.346 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.XML: java.lang.String cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:22:25.687 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.XML: java.lang.String cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+* Resulting test suite's mutation score: 46%
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'XML_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s11/json/evosuite-tests
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: org.json.JSONArray
+* Starting Client-0
+* Connecting to master process on port 8223
+* Analyzing classpath: 
+  - /home/apaniche/mitchell/generation-scripts/projects/json/json-20180813.jar
+* Finished analyzing classpath
+* Generating tests for class org.json.JSONArray
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 2012
+* Using seed 11
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 794 / 2012
+[MASTER] 21:23:19.882 [logback-2] ERROR TestCluster - Failed to check cache for java.lang.Enum<E> : Type points to itself
+* Search finished after 126s and 65 generations, 30974 statements, best individual has fitness: 508.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 82%
+* Total number of goals: 346
+* Number of covered goals: 283
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 76%
+* Total number of goals: 250
+* Number of covered goals: 190
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 43
+* Number of covered goals: 43
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 86%
+* Total number of goals: 710
+* Number of covered goals: 612
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 40%
+* Total number of goals: 312
+* Number of covered goals: 125
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 72
+* Number of covered goals: 72
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 88%
+* Total number of goals: 72
+* Number of covered goals: 63
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 75%
+* Total number of goals: 250
+* Number of covered goals: 188
+* Generated 153 tests with total length 466
+* Resulting test suite's coverage: 76% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 38%
+* Compiling and checking tests
+[MASTER] 21:27:25.773 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.AssertionError: expected null, but was:<java.io.StringWriter@0000000003>
+[MASTER] 21:27:25.773 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ LinkedList<MultipleGradientPaint.CycleMethod> linkedList0 = new LinkedList<MultipleGradientPaint.CycleMethod>();
+JSONArray jSONArray0 = new JSONArray();
+jSONArray0.put(8173, (Collection<?>) linkedList0);
+String string0 = jSONArray0.toString();
+assertNull(string0);
+
+
+* Writing tests to file
+* Writing JUnit test case 'JSONArray_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s11/json/evosuite-tests
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: org.json.JSONObject
+* Starting Client-0
+* Connecting to master process on port 8225
+* Analyzing classpath: 
+  - /home/apaniche/mitchell/generation-scripts/projects/json/json-20180813.jar
+* Finished analyzing classpath
+* Generating tests for class org.json.JSONObject
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 3382
+* Using seed 11
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 850 / 3382
+[MASTER] 21:27:40.451 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 21:27:40.452 [logback-2] ERROR TestCluster - Failed to check cache for java.util.HashMap<K, V> : Type points to itself
+[MASTER] 21:27:40.453 [logback-2] ERROR TestCluster - Failed to check cache for java.lang.Enum<E> : Type points to itself
+[MASTER] 21:27:40.475 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 21:27:40.476 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 21:28:23.510 [logback-1] WARN  ExecutionTrace - Popping method putOpt(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject; because we were looking for quote(Ljava/lang/String;Ljava/io/Writer;)Ljava/io/Writer;
+[MASTER] 21:28:23.510 [logback-1] WARN  ExecutionTrace - Current stack: []
+[MASTER] 21:29:36.765 [logback-2] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
+* Search finished after 127s and 60 generations, 31497 statements, best individual has fitness: 1035.0
+* Minimizing test suite
+[MASTER] 21:32:05.317 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 76%
+* Total number of goals: 711
+* Number of covered goals: 543
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 72%
+* Total number of goals: 595
+* Number of covered goals: 430
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 58
+* Number of covered goals: 58
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 76%
+* Total number of goals: 937
+* Number of covered goals: 710
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 35%
+* Total number of goals: 358
+* Number of covered goals: 124
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 97%
+* Total number of goals: 93
+* Number of covered goals: 90
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 82%
+* Total number of goals: 93
+* Number of covered goals: 76
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 70%
+* Total number of goals: 595
+* Number of covered goals: 416
+* Generated 345 tests with total length 4261
+* Resulting test suite's coverage: 71% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 21:32:15.492 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.JSONObject: java.lang.String cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:32:15.782 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.JSONObject: java.lang.String cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:32:21.207 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.JSONObject: java.lang.String cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:32:26.522 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.JSONObject: java.lang.String cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:32:30.863 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.JSONObject: java.lang.Double cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.Double cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:32:30.883 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.JSONObject: java.lang.Double cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.Double cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:33:07.707 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.JSONObject: java.lang.String cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:33:08.590 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.JSONObject: java.lang.String cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:33:08.623 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.JSONObject: java.lang.String cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:33:09.438 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.JSONObject: java.lang.String cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:33:09.668 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.JSONObject: java.lang.String cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:33:09.896 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class org.json.JSONObject: java.lang.String cannot be cast to java.lang.Boolean
+java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Boolean
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveAssertion(TestCodeVisitor.java:528) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitAssertion(TestCodeVisitor.java:914) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.addAssertions(TestCodeVisitor.java:956) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitMethodStatement(TestCodeVisitor.java:1507) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:147) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1858) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.getCode(AbstractStatement.java:247) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.visit(PrimitiveTraceObserver.java:116) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionTraceObserver.visitReturnValue(AssertionTraceObserver.java:131) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.PrimitiveTraceObserver.afterStatement(PrimitiveTraceObserver.java:51) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.lambda$informObservers_after$1(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:351) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:202) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:55) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[MASTER] 21:34:02.640 [logback-1] WARN  SimpleMutationAssertionGenerator - Assertion minimization is taking too long (0.9460333333333333% of time used, but only 131/345 tests minimized), falling back to using all assertions
+[MASTER] 21:34:09.205 [logback-1] WARN  SimpleMutationAssertionGenerator - Reached maximum time to generate assertions, aborting assertion generation
+* Resulting test suite's mutation score: 24%
+* Compiling and checking tests
+[MASTER] 21:34:45.945 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.AssertionError: null
+[MASTER] 21:34:45.946 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ PipedInputStream pipedInputStream0 = new PipedInputStream();
+assertNotNull(pipedInputStream0);
+assertEquals(0, pipedInputStream0.available());
+
+BufferedInputStream bufferedInputStream0 = new BufferedInputStream(pipedInputStream0);
+assertNotNull(bufferedInputStream0);
+assertEquals(0, pipedInputStream0.available());
+
+String[] stringArray0 = new String[1];
+stringArray0[0] = "A JSONObject text must begin with '{'";
+JSONObject jSONObject0 = new JSONObject(bufferedInputStream0, stringArray0);
+assertEquals(1, stringArray0.length);
+assertNotNull(jSONObject0);
+assertEquals(0, pipedInputStream0.available());
+assertTrue(jSONObject0.isEmpty());
+assertEquals(0, jSONObject0.length());
+
+JSONObject jSONObject1 = jSONObject0.putOnce("A JSONObject text must begin with '{'", "A JSONObject text must begin with '{'");
+assertSame(jSONObject0, jSONObject1);
+assertSame(jSONObject1, jSONObject0);
+assertEquals(1, stringArray0.length);
+assertNotNull(jSONObject1);
+assertEquals(0, pipedInputStream0.available());
+assertFalse(jSONObject0.isEmpty());
+assertEquals(1, jSONObject0.length());
+assertFalse(jSONObject1.isEmpty());
+assertEquals(1, jSONObject1.length());
+
+boolean boolean0 = bufferedInputStream0.markSupported();
+assertTrue(boolean0);
+assertEquals(0, pipedInputStream0.available());
+
+String string0 = jSONObject0.toString();
+assertSame(jSONObject0, jSONObject1);
+assertEquals(1, stringArray0.length);
+assertNotNull(string0);
+assertEquals(0, pipedInputStream0.available());
+assertFalse(jSONObject0.isEmpty());
+assertEquals(1, jSONObject0.length());
+
+BigInteger bigInteger0 = BigInteger.ZERO;
+assertNotNull(bigInteger0);
+assertEquals((byte)0, bigInteger0.byteValue());
+assertEquals((short)0, bigInteger0.shortValue());
+
+float float0 = bigInteger0.floatValue();
+assertEquals(0.0F, float0, 0.01F);
+assertEquals((byte)0, bigInteger0.byteValue());
+assertEquals((short)0, bigInteger0.shortValue());
+
+BigInteger bigInteger1 = jSONObject0.optBigInteger("A JSONObject text must begin with '{'", bigInteger0);
+assertSame(jSONObject0, jSONObject1);
+assertSame(bigInteger0, bigInteger1);
+assertSame(bigInteger1, bigInteger0);
+assertEquals(1, stringArray0.length);
+assertNotNull(bigInteger1);
+assertEquals(0, pipedInputStream0.available());
+assertFalse(jSONObject0.isEmpty());
+assertEquals(1, jSONObject0.length());
+assertEquals((byte)0, bigInteger0.byteValue());
+assertEquals((short)0, bigInteger0.shortValue());
+assertEquals((short)0, bigInteger1.shortValue());
+assertEquals((byte)0, bigInteger1.byteValue());
+
+Object object0 = JSONObject.stringToValue("java.io.StringWriter@0000000008");
+assertTrue(object0.equals((Object)string0));
+assertNotNull(object0);
+
+BigInteger bigInteger2 = BigInteger.ZERO;
+assertSame(bigInteger2, bigInteger1);
+assertSame(bigInteger2, bigInteger0);
+assertNotNull(bigInteger2);
+assertEquals((byte)0, bigInteger2.byteValue());
+assertEquals((short)0, bigInteger2.shortValue());
+
+Object object1 = JSONObject.stringToValue("0000");
+assertFalse(object1.equals((Object)string0));
+assertFalse(object1.equals((Object)object0));
+assertEquals("0000", object1);
+assertNotNull(object1);
+
+jSONObject0.getJSONArray("tIB'%n# ;");
+
+[MASTER] 21:34:53.130 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class org.json.JSONException: Unable to write JSONObject value for key: org.json.JSONObject@0000000002
+[MASTER] 21:34:53.136 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ JSONObject jSONObject0 = new JSONObject((Map<?, ?>) null);
+assertNotNull(jSONObject0);
+assertEquals(0, jSONObject0.length());
+assertTrue(jSONObject0.isEmpty());
+
+JSONArray jSONArray0 = jSONObject0.names();
+assertNull(jSONArray0);
+assertEquals(0, jSONObject0.length());
+assertTrue(jSONObject0.isEmpty());
+
+Class<StandardProtocolFamily> class0 = StandardProtocolFamily.class;
+jSONObject0.optEnum(class0, "SS!s?V}A5YtwicAd#}u");
+assertEquals(0, jSONObject0.length());
+assertTrue(jSONObject0.isEmpty());
+
+JSONObject jSONObject1 = jSONObject0.put("M=sU{;d)r,tK4Gd", (Map<?, ?>) null);
+assertSame(jSONObject0, jSONObject1);
+assertSame(jSONObject1, jSONObject0);
+assertNotNull(jSONObject1);
+assertEquals(1, jSONObject0.length());
+assertFalse(jSONObject0.isEmpty());
+assertFalse(jSONObject1.isEmpty());
+assertEquals(1, jSONObject1.length());
+
+boolean boolean0 = JSONObject.isDecimalNotation("M=sU{;d)r,tK4Gd");
+assertFalse(boolean0);
+
+JSONObject jSONObject2 = jSONObject1.putOnce("M=sU{;d)r,tK4Gd", (Object) null);
+assertSame(jSONObject0, jSONObject2);
+assertSame(jSONObject0, jSONObject1);
+assertSame(jSONObject1, jSONObject2);
+assertSame(jSONObject1, jSONObject0);
+assertSame(jSONObject2, jSONObject0);
+assertSame(jSONObject2, jSONObject1);
+assertNotNull(jSONObject2);
+assertEquals(1, jSONObject0.length());
+assertFalse(jSONObject0.isEmpty());
+assertFalse(jSONObject1.isEmpty());
+assertEquals(1, jSONObject1.length());
+assertEquals(1, jSONObject2.length());
+assertFalse(jSONObject2.isEmpty());
+
+JSONObject.testValidity("M=sU{;d)r,tK4Gd");
+BigDecimal bigDecimal0 = new BigDecimal(612);
+assertNotNull(bigDecimal0);
+assertEquals((short)612, bigDecimal0.shortValue());
+assertEquals((byte)100, bigDecimal0.byteValue());
+
+BigDecimal bigDecimal1 = jSONObject2.optBigDecimal("M=sU{;d)r,tK4Gd", bigDecimal0);
+assertSame(jSONObject0, jSONObject2);
+assertSame(jSONObject0, jSONObject1);
+assertSame(jSONObject1, jSONObject2);
+assertSame(jSONObject1, jSONObject0);
+assertSame(jSONObject2, jSONObject0);
+assertSame(jSONObject2, jSONObject1);
+assertSame(bigDecimal0, bigDecimal1);
+assertSame(bigDecimal1, bigDecimal0);
+assertNotNull(bigDecimal1);
+assertEquals(1, jSONObject0.length());
+assertFalse(jSONObject0.isEmpty());
+assertFalse(jSONObject1.isEmpty());
+assertEquals(1, jSONObject1.length());
+assertEquals(1, jSONObject2.length());
+assertFalse(jSONObject2.isEmpty());
+assertEquals((short)612, bigDecimal0.shortValue());
+assertEquals((byte)100, bigDecimal0.byteValue());
+assertEquals((byte)100, bigDecimal1.byteValue());
+assertEquals((short)612, bigDecimal1.shortValue());
+
+CharArrayWriter charArrayWriter0 = new CharArrayWriter(0);
+assertNotNull(charArrayWriter0);
+assertEquals(0, charArrayWriter0.size());
+assertEquals("", charArrayWriter0.toString());
+
+JSONObject.indent(charArrayWriter0, 0);
+assertEquals(0, charArrayWriter0.size());
+assertEquals("", charArrayWriter0.toString());
+
+String string0 = jSONObject2.optString("M=sU{;d)r,tK4Gd");
+assertSame(jSONObject0, jSONObject2);
+assertSame(jSONObject0, jSONObject1);
+assertSame(jSONObject1, jSONObject2);
+assertSame(jSONObject1, jSONObject0);
+assertSame(jSONObject2, jSONObject0);
+assertSame(jSONObject2, jSONObject1);
+assertNotNull(string0);
+assertEquals(1, jSONObject0.length());
+assertFalse(jSONObject0.isEmpty());
+assertFalse(jSONObject1.isEmpty());
+assertEquals(1, jSONObject1.length());
+assertEquals(1, jSONObject2.length());
+assertFalse(jSONObject2.isEmpty());
+
+JSONObject jSONObject3 = jSONObject0.accumulate("org.json.JSONObject@0000000002", jSONObject1);
+assertSame(jSONObject0, jSONObject2);
+assertSame(jSONObject0, jSONObject1);
+assertSame(jSONObject0, jSONObject3);
+assertSame(jSONObject1, jSONObject2);
+assertSame(jSONObject1, jSONObject0);
+assertSame(jSONObject1, jSONObject3);
+assertSame(jSONObject3, jSONObject2);
+assertSame(jSONObject3, jSONObject1);
+assertSame(jSONObject3, jSONObject0);
+assertNotNull(jSONObject3);
+assertFalse(jSONObject0.isEmpty());
+assertEquals(2, jSONObject0.length());
+assertFalse(jSONObject1.isEmpty());
+assertEquals(2, jSONObject1.length());
+assertEquals(2, jSONObject3.length());
+assertFalse(jSONObject3.isEmpty());
+
+long long0 = jSONObject3.optLong("M=sU{;d)r,tK4Gd", (long) 0);
+assertSame(jSONObject0, jSONObject2);
+assertSame(jSONObject0, jSONObject1);
+assertSame(jSONObject0, jSONObject3);
+assertSame(jSONObject1, jSONObject2);
+assertSame(jSONObject1, jSONObject0);
+assertSame(jSONObject1, jSONObject3);
+assertSame(jSONObject3, jSONObject2);
+assertSame(jSONObject3, jSONObject1);
+assertSame(jSONObject3, jSONObject0);
+assertEquals(0L, long0);
+assertFalse(jSONObject0.isEmpty());
+assertEquals(2, jSONObject0.length());
+assertFalse(jSONObject1.isEmpty());
+assertEquals(2, jSONObject1.length());
+assertEquals(2, jSONObject3.length());
+assertFalse(jSONObject3.isEmpty());
+
+Iterator<String> iterator0 = jSONObject0.keys();
+assertSame(jSONObject0, jSONObject2);
+assertSame(jSONObject0, jSONObject1);
+assertSame(jSONObject0, jSONObject3);
+assertNotNull(iterator0);
+assertFalse(jSONObject0.isEmpty());
+assertEquals(2, jSONObject0.length());
+
+int int0 = jSONObject0.optInt("%", 0);
+assertSame(jSONObject0, jSONObject2);
+assertSame(jSONObject0, jSONObject1);
+assertSame(jSONObject0, jSONObject3);
+assertEquals(0, int0);
+assertFalse(jSONObject0.isEmpty());
+assertEquals(2, jSONObject0.length());
+
+MockFile mockFile0 = new MockFile("index %d is out of bounds - the array has %d elements");
+assertNotNull(mockFile0);
+
+LinkedList<String> linkedList0 = new LinkedList<String>();
+assertFalse(linkedList0.contains("M=sU{;d)r,tK4Gd"));
+assertNotNull(linkedList0);
+assertEquals(0, linkedList0.size());
+
+boolean boolean1 = FileSystemHandling.shouldAllThrowIOExceptions();
+assertFalse(boolean1 == boolean0);
+assertTrue(boolean1);
+
+JSONPointer jSONPointer0 = new JSONPointer(linkedList0);
+assertFalse(linkedList0.contains("M=sU{;d)r,tK4Gd"));
+assertNotNull(jSONPointer0);
+assertEquals(0, linkedList0.size());
+
+JSONObject jSONObject4 = (JSONObject)jSONObject3.optQuery(jSONPointer0);
+assertSame(jSONObject0, jSONObject2);
+assertSame(jSONObject0, jSONObject1);
+assertSame(jSONObject0, jSONObject3);
+assertSame(jSONObject0, jSONObject4);
+assertSame(jSONObject1, jSONObject2);
+assertSame(jSONObject1, jSONObject0);
+assertSame(jSONObject1, jSONObject3);
+assertSame(jSONObject1, jSONObject4);
+assertSame(jSONObject4, jSONObject3);
+assertSame(jSONObject4, jSONObject1);
+assertSame(jSONObject4, jSONObject2);
+assertSame(jSONObject4, jSONObject0);
+assertSame(jSONObject3, jSONObject4);
+assertSame(jSONObject3, jSONObject2);
+assertSame(jSONObject3, jSONObject1);
+assertSame(jSONObject3, jSONObject0);
+assertFalse(linkedList0.contains("M=sU{;d)r,tK4Gd"));
+assertNotNull(jSONObject4);
+assertFalse(jSONObject0.isEmpty());
+assertEquals(2, jSONObject0.length());
+assertEquals(0, linkedList0.size());
+assertFalse(jSONObject1.isEmpty());
+assertEquals(2, jSONObject1.length());
+assertEquals(2, jSONObject4.length());
+assertFalse(jSONObject4.isEmpty());
+assertEquals(2, jSONObject3.length());
+assertFalse(jSONObject3.isEmpty());
+
+JSONObject jSONObject5 = jSONObject0.accumulate("getgetScript", jSONObject2);
+assertSame(jSONObject0, jSONObject2);
+assertSame(jSONObject0, jSONObject1);
+assertSame(jSONObject0, jSONObject3);
+assertSame(jSONObject0, jSONObject5);
+assertSame(jSONObject0, jSONObject4);
+assertSame(jSONObject1, jSONObject2);
+assertSame(jSONObject1, jSONObject0);
+assertSame(jSONObject1, jSONObject3);
+assertSame(jSONObject1, jSONObject5);
+assertSame(jSONObject1, jSONObject4);
+assertSame(jSONObject5, jSONObject3);
+assertSame(jSONObject5, jSONObject0);
+assertSame(jSONObject5, jSONObject2);
+assertSame(jSONObject5, jSONObject1);
+assertSame(jSONObject5, jSONObject4);
+assertSame(jSONObject2, jSONObject0);
+assertSame(jSONObject2, jSONObject3);
+assertSame(jSONObject2, jSONObject5);
+assertSame(jSONObject2, jSONObject1);
+assertSame(jSONObject2, jSONObject4);
+assertNotNull(jSONObject5);
+assertFalse(jSONObject0.isEmpty());
+assertEquals(3, jSONObject0.length());
+assertFalse(jSONObject1.isEmpty());
+assertEquals(3, jSONObject1.length());
+assertFalse(jSONObject5.isEmpty());
+assertEquals(3, jSONObject5.length());
+assertEquals(3, jSONObject2.length());
+assertFalse(jSONObject2.isEmpty());
+
+float float0 = jSONObject5.optFloat("ax|^5=ic^[3:;X", (-823.68F));
+assertSame(jSONObject0, jSONObject2);
+assertSame(jSONObject0, jSONObject1);
+assertSame(jSONObject0, jSONObject3);
+assertSame(jSONObject0, jSONObject5);
+assertSame(jSONObject0, jSONObject4);
+assertSame(jSONObject1, jSONObject2);
+assertSame(jSONObject1, jSONObject0);
+assertSame(jSONObject1, jSONObject3);
+assertSame(jSONObject1, jSONObject5);
+assertSame(jSONObject1, jSONObject4);
+assertSame(jSONObject5, jSONObject3);
+assertSame(jSONObject5, jSONObject0);
+assertSame(jSONObject5, jSONObject2);
+assertSame(jSONObject5, jSONObject1);
+assertSame(jSONObject5, jSONObject4);
+assertSame(jSONObject2, jSONObject0);
+assertSame(jSONObject2, jSONObject3);
+assertSame(jSONObject2, jSONObject5);
+assertSame(jSONObject2, jSONObject1);
+assertSame(jSONObject2, jSONObject4);
+assertEquals((-823.68F), float0, 0.01F);
+assertFalse(jSONObject0.isEmpty());
+assertEquals(3, jSONObject0.length());
+assertFalse(jSONObject1.isEmpty());
+assertEquals(3, jSONObject1.length());
+assertFalse(jSONObject5.isEmpty());
+assertEquals(3, jSONObject5.length());
+assertEquals(3, jSONObject2.length());
+assertFalse(jSONObject2.isEmpty());
+
+int int1 = 709;
+int int2 = 100;
+jSONObject4.write((Writer) charArrayWriter0, int1, int2);
+
+[MASTER] 21:35:07.534 [logback-2] ERROR JUnitAnalyzer - Ran out of time while checking tests
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 19
+* Writing tests to file
+* Writing JUnit test case 'JSONObject_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s11/json/evosuite-tests
+* Done!
+
+* Computation finished

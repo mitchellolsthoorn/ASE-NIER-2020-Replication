@@ -1,0 +1,970 @@
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: com.google.gson.Gson
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: com.google.gson.internal.bind.JsonTreeReader
+* Starting Client-0
+* Connecting to master process on port 17362
+* Starting Client-0
+* Connecting to master process on port 17364
+* Analyzing classpath: 
+* Analyzing classpath: 
+  - /home/apaniche/mitchell/generation-scripts/projects/gson/gson-2.8.6.jar
+  - /home/apaniche/mitchell/generation-scripts/projects/gson/gson-2.8.6.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.gson.internal.bind.JsonTreeReader
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 830
+* Using seed 8
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 253 / 830
+[MASTER] 20:01:09.025 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 20:01:09.026 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+* Finished analyzing classpath
+* Generating tests for class com.google.gson.Gson
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 991
+* Using seed 8
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 599 / 991
+[MASTER] 20:01:10.456 [logback-2] ERROR TestCluster - Failed to check cache for java.util.HashMap<K, V> : Type points to itself
+[MASTER] 20:01:10.461 [logback-2] ERROR TestCluster - Failed to check cache for com.google.gson.Gson.FutureTypeAdapter<T> : Type points to itself
+* Search finished after 121s and 1313 generations, 284427 statements, best individual has fitness: 174.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 93%
+* Total number of goals: 162
+* Number of covered goals: 150
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 89%
+* Total number of goals: 103
+* Number of covered goals: 92
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 47
+* Number of covered goals: 47
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 76%
+* Total number of goals: 397
+* Number of covered goals: 303
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 74%
+* Total number of goals: 27
+* Number of covered goals: 20
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 19
+* Number of covered goals: 19
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 19
+* Number of covered goals: 19
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 89%
+* Total number of goals: 103
+* Number of covered goals: 92
+* Generated 86 tests with total length 335
+* Resulting test suite's coverage: 85% (average coverage for all fitness functions)
+* Generating assertions
+* Search finished after 124s and 76 generations, 25927 statements, best individual has fitness: 215.0
+* Minimizing test suite
+* Resulting test suite's mutation score: 39%
+* Compiling and checking tests
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 88%
+* Total number of goals: 333
+* Number of covered goals: 292
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 84%
+* Total number of goals: 113
+* Number of covered goals: 95
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 52
+* Number of covered goals: 52
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 78%
+* Total number of goals: 292
+* Number of covered goals: 228
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 59%
+* Total number of goals: 70
+* Number of covered goals: 41
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 94%
+* Total number of goals: 35
+* Number of covered goals: 33
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 91%
+* Total number of goals: 35
+* Number of covered goals: 32
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 79%
+* Total number of goals: 113
+* Number of covered goals: 89
+* Generated 91 tests with total length 326
+* Resulting test suite's coverage: 78% (average coverage for all fitness functions)
+* Generating assertions
+* Writing tests to file
+* Writing JUnit test case 'JsonTreeReader_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s8/gson/evosuite-tests
+* Done!
+
+* Computation finished
+* Resulting test suite's mutation score: 24%
+* Compiling and checking tests
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 11
+* Writing tests to file
+* Writing JUnit test case 'Gson_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s8/gson/evosuite-tests
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: com.google.gson.internal.bind.JsonTreeWriter
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: com.google.gson.stream.JsonReader
+* Starting Client-0
+* Starting Client-0
+* Connecting to master process on port 17364
+* Connecting to master process on port 17366
+* Analyzing classpath: 
+* Analyzing classpath: 
+  - /home/apaniche/mitchell/generation-scripts/projects/gson/gson-2.8.6.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.gson.internal.bind.JsonTreeWriter
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 443
+* Using seed 8
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 202 / 443
+  - /home/apaniche/mitchell/generation-scripts/projects/gson/gson-2.8.6.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.gson.stream.JsonReader
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 2813
+* Using seed 8
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 438 / 2813
+* Search finished after 121s and 1688 generations, 311735 statements, best individual has fitness: 50.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 96%
+* Total number of goals: 83
+* Number of covered goals: 80
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 92%
+* Total number of goals: 74
+* Number of covered goals: 68
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 15
+* Number of covered goals: 15
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 91%
+* Total number of goals: 87
+* Number of covered goals: 79
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 86%
+* Total number of goals: 93
+* Number of covered goals: 80
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 16
+* Number of covered goals: 16
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 16
+* Number of covered goals: 16
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 92%
+* Total number of goals: 74
+* Number of covered goals: 68
+* Generated 63 tests with total length 217
+* Resulting test suite's coverage: 89% (average coverage for all fitness functions)
+* Generating assertions
+* Search finished after 122s and 498 generations, 126871 statements, best individual has fitness: 890.0
+* Resulting test suite's mutation score: 51%
+* Compiling and checking tests
+* Minimizing test suite
+* Writing tests to file
+* Writing JUnit test case 'JsonTreeWriter_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s8/gson/evosuite-tests
+* Done!
+
+* Computation finished
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 71%
+* Total number of goals: 671
+* Number of covered goals: 475
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 71%
+* Total number of goals: 677
+* Number of covered goals: 478
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 80
+* Number of covered goals: 80
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 65%
+* Total number of goals: 709
+* Number of covered goals: 458
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 60%
+* Total number of goals: 35
+* Number of covered goals: 21
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 22
+* Number of covered goals: 22
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 91%
+* Total number of goals: 22
+* Number of covered goals: 20
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 70%
+* Total number of goals: 677
+* Number of covered goals: 471
+* Generated 169 tests with total length 617
+* Resulting test suite's coverage: 73% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 18%
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'JsonReader_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s8/gson/evosuite-tests
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: com.google.gson.internal.LinkedHashTreeMap
+* Going to generate test cases for class: com.google.gson.JsonObject
+* Starting Client-0
+* Connecting to master process on port 17366
+* Starting Client-0
+* Connecting to master process on port 17365
+* Analyzing classpath: 
+* Analyzing classpath: 
+  - /home/apaniche/mitchell/generation-scripts/projects/gson/gson-2.8.6.jar
+  - /home/apaniche/mitchell/generation-scripts/projects/gson/gson-2.8.6.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.gson.JsonObject
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 221
+* Using seed 8
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 142 / 221
+[MASTER] 20:11:49.785 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 20:11:49.786 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+* Finished analyzing classpath
+* Generating tests for class com.google.gson.internal.LinkedHashTreeMap
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 1627
+* Using seed 8
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 578 / 1627
+[MASTER] 20:11:50.960 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 20:11:50.961 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 20:12:05.341 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 20:13:07.970 [logback-2] ERROR AbstractStatement - Error assigning value of type LinkedHashTreeMap.Node[] defined at statement LinkedHashTreeMap.Node<Object, String>[] linkedHashTreeMap_NodeArray0 = linkedHashTreeMap0.table, assignment statement: linkedHashTreeMap_NodeArray0[0] = (LinkedHashTreeMap.Node<Object, String>) linkedHashTreeMap_NodeArray1; SUT=com.google.gson.internal.LinkedHashTreeMap
+[MASTER] 20:13:17.379 [logback-2] ERROR AbstractStatement - Error assigning value of type LinkedHashTreeMap.Node[] defined at statement LinkedHashTreeMap.Node<Object, String>[] linkedHashTreeMap_NodeArray0 = linkedHashTreeMap0.table, assignment statement: linkedHashTreeMap_NodeArray0[0] = (LinkedHashTreeMap.Node<Object, String>) linkedHashTreeMap_NodeArray1; SUT=com.google.gson.internal.LinkedHashTreeMap
+[MASTER] 20:13:21.603 [logback-2] ERROR AbstractStatement - Error assigning value of type LinkedHashTreeMap.Node[] defined at statement LinkedHashTreeMap.Node<Object, String>[] linkedHashTreeMap_NodeArray0 = linkedHashTreeMap0.table, assignment statement: linkedHashTreeMap_NodeArray0[0] = (LinkedHashTreeMap.Node<Object, String>) linkedHashTreeMap_NodeArray1; SUT=com.google.gson.internal.LinkedHashTreeMap
+[MASTER] 20:13:39.349 [logback-2] ERROR AbstractStatement - Error assigning value of type LinkedHashTreeMap.Node[] defined at statement LinkedHashTreeMap.Node<Object, String>[] linkedHashTreeMap_NodeArray0 = linkedHashTreeMap0.table, assignment statement: linkedHashTreeMap_NodeArray0[3] = (LinkedHashTreeMap.Node<Object, String>) linkedHashTreeMap_NodeArray1; SUT=com.google.gson.internal.LinkedHashTreeMap
+* Search finished after 122s and 20 generations, 13172 statements, best individual has fitness: 787.0
+* Search finished after 123s and 632 generations, 96436 statements, best individual has fitness: 44.0
+* Minimizing test suite
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 29
+* Number of covered goals: 29
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 29
+* Number of covered goals: 29
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 9
+* Number of covered goals: 9
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 100%
+* Total number of goals: 16
+* Number of covered goals: 16
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 55%
+* Total number of goals: 82
+* Number of covered goals: 45
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 18
+* Number of covered goals: 18
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 18
+* Number of covered goals: 18
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 29
+* Number of covered goals: 29
+* Generated 39 tests with total length 111
+* Resulting test suite's coverage: 89% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 81%
+* Compiling and checking tests
+[MASTER] 20:13:57.899 [logback-2] ERROR JUnitAnalyzer - Compilation failed on compilation units: [RegularFileObject[/tmp/EvoSuite_26_1590084837869/com/google/gson/JsonObject_26_tmp__ESTest.java], RegularFileObject[/tmp/EvoSuite_26_1590084837869/com/google/gson/JsonObject_26_tmp__ESTest_scaffolding.java]]
+[MASTER] 20:13:57.899 [logback-2] ERROR JUnitAnalyzer - Classpath: /home/apaniche/mitchell/generation-scripts/projects/gson/gson-2.8.6.jar:/home/apaniche/mitchell/generation-scripts/evosuite.jar:/home/apaniche/mitchell/generation-scripts/projects/gson/gson-2.8.6.jar
+[MASTER] 20:13:57.899 [logback-2] ERROR JUnitAnalyzer - evosuiteCP: /home/apaniche/mitchell/generation-scripts/evosuite.jar:/home/apaniche/mitchell/generation-scripts/projects/gson/gson-2.8.6.jar
+[MASTER] 20:13:57.902 [logback-2] ERROR JUnitAnalyzer - Diagnostic: incompatible types: com.google.gson.JsonPrimitive cannot be converted to com.google.gson.JsonObject: 28
+[MASTER] 20:13:57.903 [logback-2] ERROR JUnitAnalyzer - RegularFileObject[/tmp/EvoSuite_26_1590084837869/com/google/gson/JsonObject_26_tmp__ESTest.java]
+1: /*
+2:  * This file was automatically generated by EvoSuite
+3:  * Thu May 21 18:13:57 GMT 2020
+4:  */
+5: 
+6: package com.google.gson;
+7: 
+8: import org.junit.Test;
+9: import static org.junit.Assert.*;
+10: import static org.evosuite.runtime.EvoAssertions.*;
+11: import com.google.gson.JsonObject;
+12: import com.google.gson.JsonPrimitive;
+13: import org.evosuite.runtime.EvoRunner;
+14: import org.evosuite.runtime.EvoRunnerParameters;
+15: import org.junit.runner.RunWith;
+16: 
+17: @RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, useJEE = true) 
+18: public class JsonObject_26_tmp__ESTest extends JsonObject_26_tmp__ESTest_scaffolding {
+19: 
+20:   @Test(timeout = 4000)
+21:   public void test0()  throws Throwable  {
+22:       JsonObject jsonObject0 = new JsonObject();
+23:       Boolean boolean0 = Boolean.TRUE;
+24:       jsonObject0.addProperty("", boolean0);
+25:       JsonPrimitive jsonPrimitive0 = (JsonPrimitive)jsonObject0.remove("");
+26:       // Undeclared exception!
+27:       try { 
+28:         ((JsonObject) jsonPrimitive0).size();
+29:         fail("Expecting exception: IllegalArgumentException");
+30:       
+31:       } catch(IllegalArgumentException e) {
+32:       }
+33:   }
+34: }
+RegularFileObject[/tmp/EvoSuite_26_1590084837869/com/google/gson/JsonObject_26_tmp__ESTest.java]
+1: /**
+2:  * Scaffolding file used to store all the setups needed to run 
+3:  * tests automatically generated by EvoSuite
+4:  * Thu May 21 18:13:57 GMT 2020
+5:  */
+6: 
+7: package com.google.gson;
+8: 
+9: import org.evosuite.runtime.annotation.EvoSuiteClassExclude;
+10: import org.junit.BeforeClass;
+11: import org.junit.Before;
+12: import org.junit.After;
+13: import org.junit.AfterClass;
+14: import org.evosuite.runtime.sandbox.Sandbox;
+15: import org.evosuite.runtime.sandbox.Sandbox.SandboxMode;
+16: 
+17: @EvoSuiteClassExclude
+18: public class JsonObject_26_tmp__ESTest_scaffolding {
+19: 
+20:   @org.junit.Rule 
+21:   public org.evosuite.runtime.vnet.NonFunctionalRequirementRule nfr = new org.evosuite.runtime.vnet.NonFunctionalRequirementRule();
+22: 
+23:   private static final java.util.Properties defaultProperties = (java.util.Properties) java.lang.System.getProperties().clone(); 
+24: 
+25:   private org.evosuite.runtime.thread.ThreadStopper threadStopper =  new org.evosuite.runtime.thread.ThreadStopper (org.evosuite.runtime.thread.KillSwitchHandler.getInstance(), 3000);
+26: 
+27: 
+28:   @BeforeClass 
+29:   public static void initEvoSuiteFramework() { 
+30:     org.evosuite.runtime.RuntimeSettings.className = "com.google.gson.JsonObject"; 
+31:     org.evosuite.runtime.GuiSupport.initialize(); 
+32:     org.evosuite.runtime.RuntimeSettings.maxNumberOfThreads = 100; 
+33:     org.evosuite.runtime.RuntimeSettings.maxNumberOfIterationsPerLoop = 10000; 
+34:     org.evosuite.runtime.RuntimeSettings.mockSystemIn = true; 
+35:     org.evosuite.runtime.RuntimeSettings.sandboxMode = org.evosuite.runtime.sandbox.Sandbox.SandboxMode.RECOMMENDED; 
+36:     org.evosuite.runtime.sandbox.Sandbox.initializeSecurityManagerForSUT(); 
+37:     org.evosuite.runtime.classhandling.JDKClassResetter.init();
+38:     setSystemProperties();
+39:     initializeClasses();
+40:     org.evosuite.runtime.Runtime.getInstance().resetRuntime(); 
+41:   } 
+42: 
+43:   @AfterClass 
+44:   public static void clearEvoSuiteFramework(){ 
+45:     Sandbox.resetDefaultSecurityManager(); 
+46:     java.lang.System.setProperties((java.util.Properties) defaultProperties.clone()); 
+47:   } 
+48: 
+49:   @Before 
+50:   public void initTestCase(){ 
+51:     threadStopper.storeCurrentThreads();
+52:     threadStopper.startRecordingTime();
+53:     org.evosuite.runtime.jvm.ShutdownHookHandler.getInstance().initHandler(); 
+54:     org.evosuite.runtime.sandbox.Sandbox.goingToExecuteSUTCode(); 
+55:     setSystemProperties(); 
+56:     org.evosuite.runtime.GuiSupport.setHeadless(); 
+57:     org.evosuite.runtime.Runtime.getInstance().resetRuntime(); 
+58:     org.evosuite.runtime.agent.InstrumentingAgent.activate(); 
+59:   } 
+60: 
+61:   @After 
+62:   public void doneWithTestCase(){ 
+63:     threadStopper.killAndJoinClientThreads();
+64:     org.evosuite.runtime.jvm.ShutdownHookHandler.getInstance().safeExecuteAddedHooks(); 
+65:     org.evosuite.runtime.classhandling.JDKClassResetter.reset(); 
+66:     resetClasses(); 
+67:     org.evosuite.runtime.sandbox.Sandbox.doneWithExecutingSUTCode(); 
+68:     org.evosuite.runtime.agent.InstrumentingAgent.deactivate(); 
+69:     org.evosuite.runtime.GuiSupport.restoreHeadlessMode(); 
+70:   } 
+71: 
+72:   public static void setSystemProperties() {
+73:  
+74:     java.lang.System.setProperties((java.util.Properties) defaultProperties.clone()); 
+75:     java.lang.System.setProperty("user.dir", "/home/apaniche/mitchell/generation-scripts/projects/gson"); 
+76:     java.lang.System.setProperty("java.io.tmpdir", "/tmp"); 
+77:   }
+78: 
+79:   private static void initializeClasses() {
+80:     org.evosuite.runtime.classhandling.ClassStateSupport.initializeClasses(JsonObject_26_tmp__ESTest_scaffolding.class.getClassLoader() ,
+81:       "com.google.gson.JsonObject",
+82:       "com.google.gson.TypeAdapter$1",
+83:       "com.google.gson.internal.bind.TypeAdapters$23",
+84:       "com.google.gson.internal.LinkedTreeMap$KeySet",
+85:       "com.google.gson.internal.bind.TypeAdapters$24",
+86:       "com.google.gson.internal.bind.TypeAdapters$25",
+87:       "com.google.gson.internal.bind.TypeAdapters$26",
+88:       "com.google.gson.internal.bind.TypeAdapters$20",
+89:       "com.google.gson.TypeAdapter",
+90:       "com.google.gson.internal.bind.TypeAdapters$21",
+91:       "com.google.gson.internal.bind.JsonTreeWriter",
+92:       "com.google.gson.internal.bind.TypeAdapters$22",
+93:       "com.google.gson.internal.bind.TypeAdapters$26$1",
+94:       "com.google.gson.internal.bind.TypeAdapters$27",
+95:       "com.google.gson.internal.bind.TypeAdapters$28",
+96:       "com.google.gson.internal.bind.TypeAdapters$29",
+97:       "com.google.gson.internal.LinkedTreeMap$1",
+98:       "com.google.gson.internal.LinkedTreeMap$KeySet$1",
+99:       "com.google.gson.internal.LinkedTreeMap$EntrySet",
+100:       "com.google.gson.internal.bind.TypeAdapters$34",
+101:       "com.google.gson.internal.bind.TypeAdapters$35",
+102:       "com.google.gson.internal.bind.TypeAdapters$30",
+103:       "com.google.gson.internal.bind.TypeAdapters$32",
+104:       "com.google.gson.internal.bind.TypeAdapters$33",
+105:       "com.google.gson.JsonArray",
+106:       "com.google.gson.internal.bind.TypeAdapters$2",
+107:       "com.google.gson.internal.bind.TypeAdapters$1",
+108:       "com.google.gson.internal.bind.JsonTreeReader",
+109:       "com.google.gson.internal.bind.TypeAdapters$35$1",
+110:       "com.google.gson.JsonIOException",
+111:       "com.google.gson.internal.bind.TypeAdapters$8",
+112:       "com.google.gson.internal.bind.TypeAdapters$7",
+113:       "com.google.gson.internal.bind.TypeAdapters",
+114:       "com.google.gson.internal.LinkedTreeMap$EntrySet$1",
+115:       "com.google.gson.internal.bind.TypeAdapters$9",
+116:       "com.google.gson.internal.LinkedTreeMap",
+117:       "com.google.gson.internal.bind.TypeAdapters$4",
+118:       "com.google.gson.internal.bind.TypeAdapters$3",
+119:       "com.google.gson.TypeAdapterFactory",
+120:       "com.google.gson.internal.bind.TypeAdapters$6",
+121:       "com.google.gson.internal.bind.TypeAdapters$EnumTypeAdapter",
+122:       "com.google.gson.internal.LazilyParsedNumber",
+123:       "com.google.gson.internal.bind.TypeAdapters$5",
+124:       "com.google.gson.JsonParseException",
+125:       "com.google.gson.internal.LinkedTreeMap$LinkedTreeMapIterator",
+126:       "com.google.gson.stream.JsonReader",
+127:       "com.google.gson.JsonElement",
+128:       "com.google.gson.internal.LinkedTreeMap$Node",
+129:       "com.google.gson.JsonPrimitive",
+130:       "com.google.gson.internal.Streams$AppendableWriter",
+131:       "com.google.gson.stream.JsonWriter",
+132:       "com.google.gson.internal.$Gson$Preconditions",
+133:       "com.google.gson.internal.Streams",
+134:       "com.google.gson.JsonSyntaxException",
+135:       "com.google.gson.internal.bind.TypeAdapters$12",
+136:       "com.google.gson.internal.bind.TypeAdapters$13",
+137:       "com.google.gson.internal.bind.TypeAdapters$14",
+138:       "com.google.gson.internal.bind.TypeAdapters$15",
+139:       "com.google.gson.internal.bind.TypeAdapters$10",
+140:       "com.google.gson.internal.bind.TypeAdapters$11",
+141:       "com.google.gson.stream.MalformedJsonException",
+142:       "com.google.gson.internal.bind.TypeAdapters$16",
+143:       "com.google.gson.internal.bind.TypeAdapters$17",
+144:       "com.google.gson.internal.bind.TypeAdapters$18",
+145:       "com.google.gson.JsonNull",
+146:       "com.google.gson.internal.bind.TypeAdapters$19"
+147:     );
+148:   } 
+149: 
+150:   private static void resetClasses() {
+151:     org.evosuite.runtime.classhandling.ClassResetter.getInstance().setClassLoader(JsonObject_26_tmp__ESTest_scaffolding.class.getClassLoader()); 
+152: 
+153:     org.evosuite.runtime.classhandling.ClassStateSupport.resetClasses(
+154:       "com.google.gson.JsonElement",
+155:       "com.google.gson.JsonObject",
+156:       "com.google.gson.JsonNull",
+157:       "com.google.gson.internal.LinkedTreeMap$1",
+158:       "com.google.gson.internal.LinkedTreeMap",
+159:       "com.google.gson.internal.LinkedTreeMap$Node",
+160:       "com.google.gson.internal.LinkedTreeMap$EntrySet",
+161:       "com.google.gson.internal.LinkedTreeMap$LinkedTreeMapIterator",
+162:       "com.google.gson.internal.LinkedTreeMap$EntrySet$1",
+163:       "com.google.gson.stream.JsonWriter",
+164:       "com.google.gson.internal.Streams",
+165:       "com.google.gson.TypeAdapter",
+166:       "com.google.gson.internal.bind.TypeAdapters$1",
+167:       "com.google.gson.TypeAdapter$1",
+168:       "com.google.gson.internal.bind.TypeAdapters$32",
+169:       "com.google.gson.internal.bind.TypeAdapters$2",
+170:       "com.google.gson.internal.bind.TypeAdapters$3",
+171:       "com.google.gson.internal.bind.TypeAdapters$4",
+172:       "com.google.gson.internal.bind.TypeAdapters$33",
+173:       "com.google.gson.internal.bind.TypeAdapters$5",
+174:       "com.google.gson.internal.bind.TypeAdapters$6",
+175:       "com.google.gson.internal.bind.TypeAdapters$7",
+176:       "com.google.gson.internal.bind.TypeAdapters$8",
+177:       "com.google.gson.internal.bind.TypeAdapters$9",
+178:       "com.google.gson.internal.bind.TypeAdapters$10",
+179:       "com.google.gson.internal.bind.TypeAdapters$11",
+180:       "com.google.gson.internal.bind.TypeAdapters$12",
+181:       "com.google.gson.internal.bind.TypeAdapters$13",
+182:       "com.google.gson.internal.bind.TypeAdapters$14",
+183:       "com.google.gson.internal.bind.TypeAdapters$15",
+184:       "com.google.gson.internal.bind.TypeAdapters$16",
+185:       "com.google.gson.internal.bind.TypeAdapters$17",
+186:       "com.google.gson.internal.bind.TypeAdapters$18",
+187:       "com.google.gson.internal.bind.TypeAdapters$19",
+188:       "com.google.gson.internal.bind.TypeAdapters$20",
+189:       "com.google.gson.internal.bind.TypeAdapters$21",
+190:       "com.google.gson.internal.bind.TypeAdapters$22",
+191:       "com.google.gson.internal.bind.TypeAdapters$23",
+192:       "com.google.gson.internal.bind.TypeAdapters$35",
+193:       "com.google.gson.internal.bind.TypeAdapters$24",
+194:       "com.google.gson.internal.bind.TypeAdapters$25",
+195:       "com.google.gson.internal.bind.TypeAdapters$26",
+196:       "com.google.gson.internal.bind.TypeAdapters$27",
+197:       "com.google.gson.internal.bind.TypeAdapters$34",
+198:       "com.google.gson.internal.bind.TypeAdapters$28",
+199:       "com.google.gson.internal.bind.TypeAdapters$29",
+200:       "com.google.gson.internal.bind.TypeAdapters$30",
+201:       "com.google.gson.internal.bind.TypeAdapters",
+202:       "com.google.gson.JsonPrimitive",
+203:       "com.google.gson.internal.$Gson$Preconditions",
+204:       "com.google.gson.internal.LinkedTreeMap$KeySet",
+205:       "com.google.gson.internal.LinkedTreeMap$KeySet$1",
+206:       "com.google.gson.JsonArray"
+207:     );
+208:   }
+209: }
+
+[MASTER] 20:13:57.904 [logback-2] ERROR JUnitAnalyzer - Failed to compile test case:
+JsonObject jsonObject0 = new JsonObject();
+Boolean boolean0 = Boolean.TRUE;
+jsonObject0.addProperty("", boolean0);
+JsonPrimitive jsonPrimitive0 = (JsonPrimitive)jsonObject0.remove("");
+((JsonObject) jsonPrimitive0).size();
+
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 62%
+* Total number of goals: 387
+* Number of covered goals: 240
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 49%
+* Total number of goals: 262
+* Number of covered goals: 129
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 11
+* Number of covered goals: 11
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 55%
+* Total number of goals: 588
+* Number of covered goals: 325
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 47%
+* Total number of goals: 34
+* Number of covered goals: 16
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 94%
+* Total number of goals: 47
+* Number of covered goals: 44
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 94%
+* Total number of goals: 47
+* Number of covered goals: 44
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 49%
+* Total number of goals: 262
+* Number of covered goals: 128
+* Generated 56 tests with total length 225
+* Resulting test suite's coverage: 49% (average coverage for all fitness functions)
+* Generating assertions
+* Writing tests to file
+* Writing JUnit test case 'JsonObject_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s8/gson/evosuite-tests
+* Done!
+
+* Computation finished
+* Resulting test suite's mutation score: 16%
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'LinkedHashTreeMap_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s8/gson/evosuite-tests
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: com.google.gson.JsonElement
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: com.google.gson.JsonArray
+* Starting Client-0
+* Connecting to master process on port 17361
+* Starting Client-0
+* Connecting to master process on port 17366
+* Analyzing classpath: 
+* Analyzing classpath: 
+  - /home/apaniche/mitchell/generation-scripts/projects/gson/gson-2.8.6.jar
+  - /home/apaniche/mitchell/generation-scripts/projects/gson/gson-2.8.6.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.gson.JsonElement
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 265
+* Using seed 8
+* Starting evolution
+* Finished analyzing classpath
+* Generating tests for class com.google.gson.JsonArray
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Initial Number of Goals in DynaMOSA = 183 / 265
+* Total number of test goals for DYNAMOSA: 427
+* Using seed 8
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 249 / 427
+* Search finished after 121s and 759 generations, 92600 statements, best individual has fitness: 105.0
+* Search finished after 122s and 194 generations, 35736 statements, best individual has fitness: 101.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 72
+* Number of covered goals: 72
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 58
+* Number of covered goals: 58
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 43
+* Number of covered goals: 43
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 97%
+* Total number of goals: 70
+* Number of covered goals: 68
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 47%
+* Total number of goals: 109
+* Number of covered goals: 51
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 30
+* Number of covered goals: 30
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 93%
+* Total number of goals: 30
+* Number of covered goals: 28
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 58
+* Number of covered goals: 58
+* Generated 81 tests with total length 246
+* Resulting test suite's coverage: 86% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 78%
+* Compiling and checking tests
+* Minimizing test suite
+[MASTER] 20:19:33.794 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.OutOfMemoryError: Java heap space
+[MASTER] 20:19:33.794 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ JsonArray jsonArray0 = new JsonArray(2147483645);
+
+* Writing tests to file
+* Writing JUnit test case 'JsonArray_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s8/gson/evosuite-tests
+* Done!
+
+* Computation finished
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 94%
+* Total number of goals: 36
+* Number of covered goals: 34
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 26
+* Number of covered goals: 26
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 89%
+* Total number of goals: 45
+* Number of covered goals: 40
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 100%
+* Total number of goals: 9
+* Number of covered goals: 9
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 52%
+* Total number of goals: 124
+* Number of covered goals: 64
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 22
+* Number of covered goals: 22
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 91%
+* Total number of goals: 22
+* Number of covered goals: 20
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 26
+* Number of covered goals: 26
+* Generated 84 tests with total length 205
+* Resulting test suite's coverage: 85% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 44%
+* Compiling and checking tests
+[MASTER] 20:20:45.995 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.StackOverflowError: null
+[MASTER] 20:20:45.996 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ JsonArray jsonArray0 = new JsonArray();
+jsonArray0.add((JsonElement) jsonArray0);
+jsonArray0.getAsFloat();
+
+[MASTER] 20:20:46.394 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.StackOverflowError: null
+[MASTER] 20:20:46.394 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ JsonArray jsonArray0 = new JsonArray();
+jsonArray0.add((JsonElement) jsonArray0);
+jsonArray0.getAsInt();
+
+* Writing tests to file
+* Writing JUnit test case 'JsonElement_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s8/gson/evosuite-tests
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: com.google.gson.stream.JsonWriter
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: com.google.gson.JsonPrimitive
+* Starting Client-0
+* Starting Client-0
+* Connecting to master process on port 17362
+* Connecting to master process on port 17363
+* Analyzing classpath: 
+* Analyzing classpath: 
+  - /home/apaniche/mitchell/generation-scripts/projects/gson/gson-2.8.6.jar
+  - /home/apaniche/mitchell/generation-scripts/projects/gson/gson-2.8.6.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.gson.stream.JsonWriter
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Finished analyzing classpath
+* Generating tests for class com.google.gson.JsonPrimitive
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 1024
+* Using seed 8
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 410 / 1024
+* Total number of test goals for DYNAMOSA: 433
+* Using seed 8
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 165 / 433
+[MASTER] 20:22:21.581 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Trying to set up the sandbox while executing a test case
+	at org.evosuite.runtime.sandbox.MSecurityManager.goingToExecuteTestCase(MSecurityManager.java:348) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.runtime.sandbox.Sandbox.goingToExecuteSUTCode(Sandbox.java:130) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:331) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:277) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:264) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:140) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.ga.metaheuristics.mosa.structural.MultiCriteriaManager.calculateFitness(MultiCriteriaManager.java:394) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.ga.metaheuristics.mosa.DynaMOSA.calculateFitness(DynaMOSA.java:193) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:148) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.ga.metaheuristics.mosa.DynaMOSA.evolve(DynaMOSA.java:72) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.ga.metaheuristics.mosa.DynaMOSA.generateSolution(DynaMOSA.java:176) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:113) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:681) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:245) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.rmi.service.ClientNodeImpl.lambda$startNewSearch$0(ClientNodeImpl.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[na:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_161]
+* Computation finished
+[MASTER] 20:22:21.582 [logback-2] ERROR ClientNodeImpl - Error when generating tests for: com.google.gson.JsonPrimitive with seed 8. Configuration id : EvoSuite_vanilla
+java.lang.Error: java.lang.IllegalStateException: Trying to set up the sandbox while executing a test case
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:146) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.ga.metaheuristics.mosa.structural.MultiCriteriaManager.calculateFitness(MultiCriteriaManager.java:394) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.ga.metaheuristics.mosa.DynaMOSA.calculateFitness(DynaMOSA.java:193) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:148) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.ga.metaheuristics.mosa.DynaMOSA.evolve(DynaMOSA.java:72) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.ga.metaheuristics.mosa.DynaMOSA.generateSolution(DynaMOSA.java:176) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:113) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:681) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:245) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.rmi.service.ClientNodeImpl.lambda$startNewSearch$0(ClientNodeImpl.java:155) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[na:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_161]
+Caused by: java.lang.IllegalStateException: Trying to set up the sandbox while executing a test case
+	at org.evosuite.runtime.sandbox.MSecurityManager.goingToExecuteTestCase(MSecurityManager.java:348) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.runtime.sandbox.Sandbox.goingToExecuteSUTCode(Sandbox.java:130) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:331) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:277) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:264) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:140) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	... 14 common frames omitted
+[MASTER] 20:22:21.692 [main] ERROR SearchStatistics - No obtained value for output variable: Total_Goals
+[MASTER] 20:22:23.695 [main] ERROR SearchStatistics - No obtained value for output variable: Total_Goals
+[MASTER] 20:22:24.696 [main] ERROR SearchStatistics - No obtained value for output variable: Total_Goals
+[MASTER] 20:22:25.696 [main] ERROR SearchStatistics - No obtained value for output variable: Total_Goals
+[MASTER] 20:22:26.697 [main] ERROR SearchStatistics - No obtained value for output variable: Total_Goals
+[MASTER] 20:22:27.697 [main] ERROR SearchStatistics - No obtained value for output variable: Total_Goals
+[MASTER] 20:22:27.697 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 20:22:27.798 [main] ERROR TestGeneration - failed to write statistics data
+* Search finished after 121s and 986 generations, 337888 statements, best individual has fitness: 115.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 97%
+* Total number of goals: 179
+* Number of covered goals: 173
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 91%
+* Total number of goals: 117
+* Number of covered goals: 106
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 18
+* Number of covered goals: 18
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 90%
+* Total number of goals: 468
+* Number of covered goals: 421
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 86%
+* Total number of goals: 97
+* Number of covered goals: 83
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 23
+* Number of covered goals: 23
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 23
+* Number of covered goals: 23
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 84%
+* Total number of goals: 117
+* Number of covered goals: 98
+* Generated 73 tests with total length 341
+* Resulting test suite's coverage: 87% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 58%
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'JsonWriter_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s8/gson/evosuite-tests
+* Done!
+
+* Computation finished

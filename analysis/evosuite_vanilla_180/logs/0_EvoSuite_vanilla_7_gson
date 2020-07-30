@@ -1,0 +1,703 @@
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: com.google.gson.Gson
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: com.google.gson.internal.bind.JsonTreeWriter
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: com.google.gson.stream.JsonWriter
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: com.google.gson.JsonPrimitive
+* Starting Client-0
+* Connecting to master process on port 12808
+* Starting Client-0
+* Starting Client-0
+* Connecting to master process on port 12812
+* Starting Client-0
+* Connecting to master process on port 12811
+* Connecting to master process on port 12809
+* Analyzing classpath: 
+* Analyzing classpath: 
+* Analyzing classpath: 
+* Analyzing classpath: 
+  - /home/apaniche/mitchell/generation-scripts/projects/gson/gson-2.8.6.jar
+  - /home/apaniche/mitchell/generation-scripts/projects/gson/gson-2.8.6.jar
+  - /home/apaniche/mitchell/generation-scripts/projects/gson/gson-2.8.6.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.gson.internal.bind.JsonTreeWriter
+* Finished analyzing classpath
+* Generating tests for class com.google.gson.JsonPrimitive
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Finished analyzing classpath
+* Generating tests for class com.google.gson.stream.JsonWriter
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 443
+* Using seed 7
+* Starting evolution
+* Total number of test goals for DYNAMOSA: 433
+* Using seed 7
+* Starting evolution
+  - /home/apaniche/mitchell/generation-scripts/projects/gson/gson-2.8.6.jar
+* Initial Number of Goals in DynaMOSA = 202 / 443
+* Initial Number of Goals in DynaMOSA = 165 / 433
+* Total number of test goals for DYNAMOSA: 1024
+* Using seed 7
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 410 / 1024
+* Finished analyzing classpath
+* Generating tests for class com.google.gson.Gson
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 991
+* Using seed 7
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 599 / 991
+[MASTER] 19:21:27.132 [logback-2] ERROR TestCluster - Failed to check cache for java.util.HashMap<K, V> : Type points to itself
+[MASTER] 19:21:27.134 [logback-2] ERROR TestCluster - Failed to check cache for com.google.gson.Gson.FutureTypeAdapter<T> : Type points to itself
+* Search finished after 181s and 2413 generations, 474089 statements, best individual has fitness: 54.0
+* Search finished after 181s and 477 generations, 181998 statements, best individual has fitness: 58.0
+* Minimizing test suite
+* Search finished after 181s and 1424 generations, 503333 statements, best individual has fitness: 115.0
+* Minimizing test suite
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 95%
+* Total number of goals: 83
+* Number of covered goals: 79
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 91%
+* Total number of goals: 74
+* Number of covered goals: 67
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 14
+* Number of covered goals: 14
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 90%
+* Total number of goals: 87
+* Number of covered goals: 78
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 86%
+* Total number of goals: 93
+* Number of covered goals: 80
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 16
+* Number of covered goals: 16
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 16
+* Number of covered goals: 16
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 91%
+* Total number of goals: 74
+* Number of covered goals: 67
+* Generated 56 tests with total length 197
+* Resulting test suite's coverage: 88% (average coverage for all fitness functions)
+* Generating assertions
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 97%
+* Total number of goals: 62
+* Number of covered goals: 60
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 91%
+* Total number of goals: 77
+* Number of covered goals: 70
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 16
+* Number of covered goals: 16
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 87%
+* Total number of goals: 91
+* Number of covered goals: 79
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 82%
+* Total number of goals: 82
+* Number of covered goals: 67
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 22
+* Number of covered goals: 22
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 22
+* Number of covered goals: 22
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 91%
+* Total number of goals: 77
+* Number of covered goals: 70
+* Generated 79 tests with total length 239
+* Resulting test suite's coverage: 87% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 53%
+* Compiling and checking tests
+* Resulting test suite's mutation score: 49%
+* Compiling and checking tests
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 97%
+* Total number of goals: 179
+* Number of covered goals: 173
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 91%
+* Total number of goals: 117
+* Number of covered goals: 106
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 18
+* Number of covered goals: 18
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 90%
+* Total number of goals: 468
+* Number of covered goals: 421
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 86%
+* Total number of goals: 97
+* Number of covered goals: 83
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 23
+* Number of covered goals: 23
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 23
+* Number of covered goals: 23
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 84%
+* Total number of goals: 117
+* Number of covered goals: 98
+* Generated 76 tests with total length 354
+* Resulting test suite's coverage: 87% (average coverage for all fitness functions)
+* Generating assertions
+* Search finished after 185s and 73 generations, 23162 statements, best individual has fitness: 258.0
+* Minimizing test suite
+* Writing tests to file
+* Writing JUnit test case 'JsonTreeWriter_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s7/gson/evosuite-tests
+* Done!
+
+* Computation finished
+* Resulting test suite's mutation score: 56%
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'JsonPrimitive_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s7/gson/evosuite-tests
+* Done!
+
+* Computation finished
+* Writing tests to file
+* Writing JUnit test case 'JsonWriter_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s7/gson/evosuite-tests
+* Done!
+
+* Computation finished
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 84%
+* Total number of goals: 333
+* Number of covered goals: 280
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 81%
+* Total number of goals: 113
+* Number of covered goals: 91
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 43
+* Number of covered goals: 43
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 71%
+* Total number of goals: 292
+* Number of covered goals: 207
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 57%
+* Total number of goals: 70
+* Number of covered goals: 40
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 94%
+* Total number of goals: 35
+* Number of covered goals: 33
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 91%
+* Total number of goals: 35
+* Number of covered goals: 32
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 76%
+* Total number of goals: 113
+* Number of covered goals: 86
+* Generated 82 tests with total length 304
+* Resulting test suite's coverage: 75% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 26%
+* Compiling and checking tests
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 23
+* Writing tests to file
+* Writing JUnit test case 'Gson_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s7/gson/evosuite-tests
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: com.google.gson.stream.JsonReader
+* Starting Client-0
+* Connecting to master process on port 12813
+* Analyzing classpath: 
+  - /home/apaniche/mitchell/generation-scripts/projects/gson/gson-2.8.6.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.gson.stream.JsonReader
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 2813
+* Using seed 7
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 438 / 2813
+* Search finished after 182s and 773 generations, 203330 statements, best individual has fitness: 670.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 82%
+* Total number of goals: 671
+* Number of covered goals: 551
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 80%
+* Total number of goals: 677
+* Number of covered goals: 540
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 81
+* Number of covered goals: 81
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 75%
+* Total number of goals: 709
+* Number of covered goals: 534
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 54%
+* Total number of goals: 35
+* Number of covered goals: 19
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 22
+* Number of covered goals: 22
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 86%
+* Total number of goals: 22
+* Number of covered goals: 19
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 79%
+* Total number of goals: 677
+* Number of covered goals: 535
+* Generated 184 tests with total length 687
+* Resulting test suite's coverage: 76% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 20%
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'JsonReader_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s7/gson/evosuite-tests
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: com.google.gson.internal.LinkedHashTreeMap
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: com.google.gson.JsonObject
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: com.google.gson.JsonElement
+* Starting Client-0
+* Starting Client-0
+* Connecting to master process on port 12810
+* Connecting to master process on port 12809
+* Starting Client-0
+* Connecting to master process on port 12813
+* Analyzing classpath: 
+* Analyzing classpath: 
+* Analyzing classpath: 
+  - /home/apaniche/mitchell/generation-scripts/projects/gson/gson-2.8.6.jar
+  - /home/apaniche/mitchell/generation-scripts/projects/gson/gson-2.8.6.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.gson.JsonObject
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 221
+* Using seed 7
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 142 / 221
+* Finished analyzing classpath
+* Generating tests for class com.google.gson.JsonElement
+  - /home/apaniche/mitchell/generation-scripts/projects/gson/gson-2.8.6.jar
+[MASTER] 19:33:41.721 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 19:33:41.721 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 265
+* Using seed 7
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 183 / 265
+* Finished analyzing classpath
+* Generating tests for class com.google.gson.internal.LinkedHashTreeMap
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 1627
+* Using seed 7
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 578 / 1627
+[MASTER] 19:33:43.751 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 19:33:43.752 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 19:33:56.175 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+* Search finished after 181s and 1149 generations, 181907 statements, best individual has fitness: 46.0
+* Minimizing test suite
+* Search finished after 182s and 651 generations, 81639 statements, best individual has fitness: 99.0
+* Search finished after 182s and 31 generations, 21664 statements, best individual has fitness: 369.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 29
+* Number of covered goals: 29
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 29
+* Number of covered goals: 29
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 8
+* Number of covered goals: 8
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 100%
+* Total number of goals: 16
+* Number of covered goals: 16
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 54%
+* Total number of goals: 82
+* Number of covered goals: 44
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 18
+* Number of covered goals: 18
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 18
+* Number of covered goals: 18
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 29
+* Number of covered goals: 29
+* Generated 40 tests with total length 112
+* Resulting test suite's coverage: 88% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 81%
+* Compiling and checking tests
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 87%
+* Total number of goals: 387
+* Number of covered goals: 335
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 71%
+* Total number of goals: 262
+* Number of covered goals: 185
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 11
+* Number of covered goals: 11
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 85%
+* Total number of goals: 588
+* Number of covered goals: 497
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 50%
+* Total number of goals: 34
+* Number of covered goals: 17
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 94%
+* Total number of goals: 47
+* Number of covered goals: 44
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 94%
+* Total number of goals: 47
+* Number of covered goals: 44
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 69%
+* Total number of goals: 262
+* Number of covered goals: 181
+* Generated 63 tests with total length 273
+* Resulting test suite's coverage: 62% (average coverage for all fitness functions)
+* Generating assertions
+* Writing tests to file
+* Writing JUnit test case 'JsonObject_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s7/gson/evosuite-tests
+* Done!
+
+* Computation finished
+* Resulting test suite's mutation score: 25%
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'LinkedHashTreeMap_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s7/gson/evosuite-tests
+* Done!
+
+* Computation finished
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 94%
+* Total number of goals: 36
+* Number of covered goals: 34
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 26
+* Number of covered goals: 26
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 87%
+* Total number of goals: 46
+* Number of covered goals: 40
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 100%
+* Total number of goals: 9
+* Number of covered goals: 9
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 56%
+* Total number of goals: 124
+* Number of covered goals: 69
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 22
+* Number of covered goals: 22
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 91%
+* Total number of goals: 22
+* Number of covered goals: 20
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 26
+* Number of covered goals: 26
+* Generated 84 tests with total length 224
+* Resulting test suite's coverage: 86% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 56%
+* Compiling and checking tests
+[MASTER] 19:37:59.236 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.StackOverflowError: null
+[MASTER] 19:37:59.237 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ JsonArray jsonArray0 = new JsonArray();
+JsonArray jsonArray1 = jsonArray0.getAsJsonArray();
+jsonArray0.add((JsonElement) jsonArray1);
+jsonArray0.getAsFloat();
+
+[MASTER] 19:38:08.823 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.StackOverflowError: null
+[MASTER] 19:38:08.824 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ JsonArray jsonArray0 = new JsonArray();
+JsonArray jsonArray1 = jsonArray0.getAsJsonArray();
+jsonArray0.add((JsonElement) jsonArray1);
+jsonArray0.toString();
+
+* Writing tests to file
+* Writing JUnit test case 'JsonElement_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s7/gson/evosuite-tests
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: com.google.gson.JsonArray
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: com.google.gson.internal.bind.JsonTreeReader
+* Starting Client-0
+* Starting Client-0
+* Connecting to master process on port 12810
+* Connecting to master process on port 12808
+* Analyzing classpath: 
+* Analyzing classpath: 
+  - /home/apaniche/mitchell/generation-scripts/projects/gson/gson-2.8.6.jar
+  - /home/apaniche/mitchell/generation-scripts/projects/gson/gson-2.8.6.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.gson.JsonArray
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 427
+* Using seed 7
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 249 / 427
+* Finished analyzing classpath
+* Generating tests for class com.google.gson.internal.bind.JsonTreeReader
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 830
+* Using seed 7
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 253 / 830
+[MASTER] 19:39:40.812 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 19:39:40.812 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+* Search finished after 181s and 811 generations, 135766 statements, best individual has fitness: 80.0
+* Minimizing test suite
+* Search finished after 181s and 1874 generations, 390837 statements, best individual has fitness: 154.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 93%
+* Total number of goals: 162
+* Number of covered goals: 151
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 90%
+* Total number of goals: 103
+* Number of covered goals: 93
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 49
+* Number of covered goals: 49
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 80%
+* Total number of goals: 397
+* Number of covered goals: 317
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 74%
+* Total number of goals: 27
+* Number of covered goals: 20
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 19
+* Number of covered goals: 19
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 19
+* Number of covered goals: 19
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 90%
+* Total number of goals: 103
+* Number of covered goals: 93
+* Generated 88 tests with total length 353
+* Resulting test suite's coverage: 86% (average coverage for all fitness functions)
+* Generating assertions
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 72
+* Number of covered goals: 72
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 58
+* Number of covered goals: 58
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 43
+* Number of covered goals: 43
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 97%
+* Total number of goals: 70
+* Number of covered goals: 68
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 71%
+* Total number of goals: 109
+* Number of covered goals: 77
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 30
+* Number of covered goals: 30
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 30
+* Number of covered goals: 30
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 58
+* Number of covered goals: 58
+* Generated 99 tests with total length 334
+* Resulting test suite's coverage: 89% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 86%
+* Compiling and checking tests
+* Resulting test suite's mutation score: 40%
+* Compiling and checking tests
+[MASTER] 19:43:01.876 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.OutOfMemoryError: Java heap space
+[MASTER] 19:43:01.876 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ JsonArray jsonArray0 = new JsonArray(2147483645);
+
+* Writing tests to file
+* Writing JUnit test case 'JsonArray_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s7/gson/evosuite-tests
+* Done!
+
+* Computation finished
+[MASTER] 19:43:09.099 [main] ERROR RuntimeVariable - Obtained invalid goal count: covered 436 out of 427
+[MASTER] 19:43:09.100 [main] ERROR SearchStatistics - Not going to write down statistics data, as some data is invalid
+[MASTER] 19:43:09.200 [main] ERROR TestGeneration - failed to write statistics data
+* Writing tests to file
+* Writing JUnit test case 'JsonTreeReader_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s7/gson/evosuite-tests
+* Done!
+
+* Computation finished

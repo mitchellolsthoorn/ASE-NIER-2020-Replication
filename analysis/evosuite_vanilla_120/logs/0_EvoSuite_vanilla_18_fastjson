@@ -1,0 +1,1910 @@
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: com.alibaba.fastjson.JSON
+* Going to generate test cases for class: com.alibaba.fastjson.JSONReader
+* Starting Client-0
+* Starting Client-0
+* Connecting to master process on port 10053
+* Connecting to master process on port 10055
+* Analyzing classpath: 
+* Analyzing classpath: 
+  - /home/apaniche/mitchell/generation-scripts/projects/fastjson/fastjson-1.2.68.jar
+  - /home/apaniche/mitchell/generation-scripts/projects/fastjson/fastjson-1.2.68.jar
+[MASTER] 23:54:53.468 [logback-1] WARN  CheapPurityAnalyzer - com.google.common.collect.ArrayListMultimap was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 23:54:53.474 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: com.google.common.collect.ArrayListMultimap
+* Finished analyzing classpath
+* Generating tests for class com.alibaba.fastjson.JSONReader
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 740
+* Using seed 18
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 232 / 740
+[MASTER] 23:54:55.188 [logback-1] WARN  CheapPurityAnalyzer - com.google.common.collect.ArrayListMultimap was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 23:54:55.192 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: com.google.common.collect.ArrayListMultimap
+* Finished analyzing classpath
+* Generating tests for class com.alibaba.fastjson.JSON
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 2080
+* Using seed 18
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 747 / 2080
+[MASTER] 23:54:56.678 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 23:54:56.680 [logback-2] ERROR TestCluster - Failed to check cache for java.util.HashMap<K, V> : Type points to itself
+[MASTER] 23:54:56.686 [logback-2] ERROR TestCluster - Failed to check cache for java.lang.Enum<E> : Type points to itself
+[MASTER] 23:54:56.686 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 23:54:56.686 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 23:55:00.839 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+[MASTER] 23:55:03.664 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 23:55:03.664 [logback-2] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
+[MASTER] 23:55:33.085 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 23:56:03.042 [logback-2] ERROR ClientNodeImpl - Cannot inform master of change of state
+java.rmi.ServerException: RemoteException occurred in server thread; nested exception is: 
+	java.rmi.UnmarshalException: error unmarshalling arguments; nested exception is: 
+	java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/serializer/ASMSerializer_2_JSON.class' should be in target project, but could not be found!
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:393) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_161]
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:283) ~[na:1.8.0_161]
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:260) ~[na:1.8.0_161]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161) ~[na:1.8.0_161]
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227) ~[na:1.8.0_161]
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179) ~[na:1.8.0_161]
+	at com.sun.proxy.$Proxy7.evosuite_collectStatistics(Unknown Source) ~[na:na]
+	at org.evosuite.rmi.service.ClientNodeImpl.updateStatistics(ClientNodeImpl.java:266) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.statistics.StatisticsSender.sendIndividualToMaster(StatisticsSender.java:68) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.statistics.StatisticsListener.lambda$new$0(StatisticsListener.java:69) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_161]
+Caused by: java.rmi.UnmarshalException: error unmarshalling arguments; nested exception is: 
+	java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/serializer/ASMSerializer_2_JSON.class' should be in target project, but could not be found!
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:352) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_161]
+	... 1 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/serializer/ASMSerializer_2_JSON.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:203) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.getClass(GenericClass.java:149) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.getClass(GenericClass.java:115) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.readObject(GenericClass.java:1720) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:426) ~[na:1.8.0_161]
+	at java.util.ArrayList.readObject(ArrayList.java:797) ~[na:1.8.0_161]
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadObject(ObjectInputStream.java:556) ~[na:1.8.0_161]
+	at org.evosuite.testcase.DefaultTestCase.readObject(DefaultTestCase.java:1103) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:426) ~[na:1.8.0_161]
+	at java.util.ArrayList.readObject(ArrayList.java:797) ~[na:1.8.0_161]
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:426) ~[na:1.8.0_161]
+	at sun.rmi.server.UnicastRef.unmarshalValue(UnicastRef.java:322) ~[na:1.8.0_161]
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:341) ~[na:1.8.0_161]
+	... 12 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/serializer/ASMSerializer_2_JSON.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:190) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	... 74 common frames omitted
+* Search finished after 123s and 26 generations, 7307 statements, best individual has fitness: 563.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 32%
+* Total number of goals: 157
+* Number of covered goals: 51
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 23%
+* Total number of goals: 115
+* Number of covered goals: 26
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 39
+* Number of covered goals: 39
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 20%
+* Total number of goals: 266
+* Number of covered goals: 54
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 35%
+* Total number of goals: 37
+* Number of covered goals: 13
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 25
+* Number of covered goals: 25
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 64%
+* Total number of goals: 25
+* Number of covered goals: 16
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 23%
+* Total number of goals: 115
+* Number of covered goals: 26
+* Generated 56 tests with total length 171
+* Resulting test suite's coverage: 44% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 23:57:00.306 [logback-2] ERROR ClientNodeImpl - Cannot inform master of change of state
+java.rmi.ServerException: RemoteException occurred in server thread; nested exception is: 
+	java.rmi.UnmarshalException: error unmarshalling arguments; nested exception is: 
+	java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/serializer/ASMSerializer_2_JSON.class' should be in target project, but could not be found!
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:393) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_161]
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:283) ~[na:1.8.0_161]
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:260) ~[na:1.8.0_161]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161) ~[na:1.8.0_161]
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227) ~[na:1.8.0_161]
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179) ~[na:1.8.0_161]
+	at com.sun.proxy.$Proxy7.evosuite_collectStatistics(Unknown Source) ~[na:na]
+	at org.evosuite.rmi.service.ClientNodeImpl.updateStatistics(ClientNodeImpl.java:266) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.statistics.StatisticsSender.sendIndividualToMaster(StatisticsSender.java:68) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.statistics.StatisticsListener.lambda$new$0(StatisticsListener.java:69) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_161]
+Caused by: java.rmi.UnmarshalException: error unmarshalling arguments; nested exception is: 
+	java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/serializer/ASMSerializer_2_JSON.class' should be in target project, but could not be found!
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:352) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_161]
+	... 1 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/serializer/ASMSerializer_2_JSON.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:203) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.getClass(GenericClass.java:149) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.getClass(GenericClass.java:115) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.readObject(GenericClass.java:1720) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:426) ~[na:1.8.0_161]
+	at java.util.ArrayList.readObject(ArrayList.java:797) ~[na:1.8.0_161]
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadObject(ObjectInputStream.java:556) ~[na:1.8.0_161]
+	at org.evosuite.testcase.DefaultTestCase.readObject(DefaultTestCase.java:1103) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:426) ~[na:1.8.0_161]
+	at java.util.ArrayList.readObject(ArrayList.java:797) ~[na:1.8.0_161]
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:426) ~[na:1.8.0_161]
+	at sun.rmi.server.UnicastRef.unmarshalValue(UnicastRef.java:322) ~[na:1.8.0_161]
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:341) ~[na:1.8.0_161]
+	... 12 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/serializer/ASMSerializer_2_JSON.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:190) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	... 74 common frames omitted
+* Search finished after 124s and 146 generations, 82911 statements, best individual has fitness: 543.0
+* Resulting test suite's mutation score: 3%
+* Compiling and checking tests
+[MASTER] 23:57:01.037 [logback-2] ERROR ClientNodeImpl - Cannot inform master of change of state
+java.rmi.ServerException: RemoteException occurred in server thread; nested exception is: 
+	java.rmi.UnmarshalException: error unmarshalling arguments; nested exception is: 
+	java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/serializer/ASMSerializer_2_JSON.class' should be in target project, but could not be found!
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:393) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_161]
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:283) ~[na:1.8.0_161]
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:260) ~[na:1.8.0_161]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161) ~[na:1.8.0_161]
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227) ~[na:1.8.0_161]
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179) ~[na:1.8.0_161]
+	at com.sun.proxy.$Proxy7.evosuite_collectStatistics(Unknown Source) ~[na:na]
+	at org.evosuite.rmi.service.ClientNodeImpl.updateStatistics(ClientNodeImpl.java:266) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.statistics.StatisticsSender.sendIndividualToMaster(StatisticsSender.java:68) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.statistics.StatisticsSender.executedAndThenSendIndividualToMaster(StatisticsSender.java:98) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:687) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:245) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.rmi.service.ClientNodeImpl.lambda$startNewSearch$0(ClientNodeImpl.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[na:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_161]
+Caused by: java.rmi.UnmarshalException: error unmarshalling arguments; nested exception is: 
+	java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/serializer/ASMSerializer_2_JSON.class' should be in target project, but could not be found!
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:352) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682) ~[na:1.8.0_161]
+	... 3 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/serializer/ASMSerializer_2_JSON.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:203) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.getClass(GenericClass.java:149) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.getClass(GenericClass.java:115) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.readObject(GenericClass.java:1720) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:426) ~[na:1.8.0_161]
+	at java.util.ArrayList.readObject(ArrayList.java:797) ~[na:1.8.0_161]
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadObject(ObjectInputStream.java:556) ~[na:1.8.0_161]
+	at org.evosuite.testcase.DefaultTestCase.readObject(DefaultTestCase.java:1103) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:426) ~[na:1.8.0_161]
+	at java.util.ArrayList.readObject(ArrayList.java:797) ~[na:1.8.0_161]
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:426) ~[na:1.8.0_161]
+	at sun.rmi.server.UnicastRef.unmarshalValue(UnicastRef.java:322) ~[na:1.8.0_161]
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:341) ~[na:1.8.0_161]
+	... 12 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/serializer/ASMSerializer_2_JSON.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:190) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	... 74 common frames omitted
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 85%
+* Total number of goals: 435
+* Number of covered goals: 371
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 82%
+* Total number of goals: 283
+* Number of covered goals: 231
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 89%
+* Total number of goals: 132
+* Number of covered goals: 118
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 78%
+* Total number of goals: 716
+* Number of covered goals: 561
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 39%
+* Total number of goals: 197
+* Number of covered goals: 76
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 96%
+* Total number of goals: 83
+* Number of covered goals: 80
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 92%
+* Total number of goals: 83
+* Number of covered goals: 76
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 78%
+* Total number of goals: 283
+* Number of covered goals: 220
+* Generated 247 tests with total length 1145
+* Resulting test suite's coverage: 77% (average coverage for all fitness functions)
+* Generating assertions
+* Writing tests to file
+* Writing JUnit test case 'JSONReader_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s18/fastjson/evosuite-tests
+* Done!
+
+* Computation finished
+* Resulting test suite's mutation score: 33%
+* Compiling and checking tests
+[MASTER] 23:58:10.847 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.ClassCastException: com.alibaba.fastjson.JSONObject cannot be cast to java.util.LinkedHashMap
+[MASTER] 23:58:10.847 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ LinkedHashMap<JSONPObject, Integer> linkedHashMap0 = new LinkedHashMap<JSONPObject, Integer>();
+SerializeConfig serializeConfig0 = new SerializeConfig();
+LinkedHashMap linkedHashMap1 = (LinkedHashMap)JSON.toJSON((Object) linkedHashMap0, serializeConfig0);
+assertEquals(0, linkedHashMap1.size());
+
+
+[MASTER] 23:58:11.278 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.ClassCastException: com.alibaba.fastjson.JSONObject cannot be cast to java.util.TreeMap
+[MASTER] 23:58:11.278 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ SerializeConfig serializeConfig0 = SerializeConfig.getGlobalInstance();
+TreeMap<SimplePropertyPreFilter, JSONArray> treeMap0 = new TreeMap<SimplePropertyPreFilter, JSONArray>();
+TreeMap treeMap1 = (TreeMap)JSON.toJSON((Object) treeMap0, serializeConfig0);
+assertEquals(3089, JSON.DEFAULT_GENERATE_FEATURE);
+
+
+[MASTER] 23:58:12.582 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class com.alibaba.fastjson.JSONException: toJSON error
+[MASTER] 23:58:12.582 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ ParameterizedTypeImpl parameterizedTypeImpl0 = (ParameterizedTypeImpl)TypeReference.LIST_STRING;
+SerializeConfig serializeConfig0 = new SerializeConfig();
+JSON.toJSON((Object) parameterizedTypeImpl0, serializeConfig0);
+
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 15
+* Writing tests to file
+* Writing JUnit test case 'JSON_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s18/fastjson/evosuite-tests
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: com.alibaba.fastjson.parser.DefaultJSONParser
+* Starting Client-0
+* Connecting to master process on port 10058
+* Analyzing classpath: 
+  - /home/apaniche/mitchell/generation-scripts/projects/fastjson/fastjson-1.2.68.jar
+[MASTER] 23:59:35.584 [logback-1] WARN  CheapPurityAnalyzer - com.google.common.collect.ArrayListMultimap was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 23:59:35.585 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: com.google.common.collect.ArrayListMultimap
+* Finished analyzing classpath
+* Generating tests for class com.alibaba.fastjson.parser.DefaultJSONParser
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 3512
+* Using seed 18
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 650 / 3512
+[MASTER] 23:59:36.574 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 23:59:36.574 [logback-2] ERROR TestCluster - Failed to check cache for java.util.HashMap<K, V> : Type points to itself
+[MASTER] 23:59:36.580 [logback-2] ERROR TestCluster - Failed to check cache for java.util.ArrayDeque<E> : Type points to itself
+[MASTER] 23:59:36.580 [logback-2] ERROR TestCluster - Failed to check cache for java.util.ArrayList<E> : Type points to itself
+[MASTER] 23:59:36.580 [logback-2] ERROR TestCluster - Failed to check cache for java.util.EnumMap<K, V> : Type points to itself
+[MASTER] 23:59:36.580 [logback-2] ERROR TestCluster - Failed to check cache for java.util.EnumSet<E> : Type points to itself
+[MASTER] 23:59:36.581 [logback-2] ERROR TestCluster - Failed to check cache for java.util.HashSet<E> : Type points to itself
+[MASTER] 23:59:36.581 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Hashtable<K, V> : Type points to itself
+[MASTER] 23:59:36.581 [logback-2] ERROR TestCluster - Failed to check cache for java.util.IdentityHashMap<K, V> : Type points to itself
+[MASTER] 23:59:36.581 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedHashMap<K, V> : Type points to itself
+[MASTER] 23:59:36.581 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedHashSet<E> : Type points to itself
+[MASTER] 23:59:36.582 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Stack<E> : Type points to itself
+[MASTER] 23:59:36.582 [logback-2] ERROR TestCluster - Failed to check cache for java.util.TreeMap<K, V> : Type points to itself
+[MASTER] 23:59:36.582 [logback-2] ERROR TestCluster - Failed to check cache for java.util.TreeSet<E> : Type points to itself
+[MASTER] 23:59:36.583 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Vector<E> : Type points to itself
+[MASTER] 23:59:36.842 [logback-2] ERROR TestCluster - Failed to check cache for java.lang.reflect.Constructor<T> : Type points to itself
+[MASTER] 23:59:58.716 [logback-2] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
+* Search finished after 122s and 106 generations, 58914 statements, best individual has fitness: 2102.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 32%
+* Total number of goals: 973
+* Number of covered goals: 314
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 33%
+* Total number of goals: 707
+* Number of covered goals: 232
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 94%
+* Total number of goals: 52
+* Number of covered goals: 49
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 62%
+* Total number of goals: 897
+* Number of covered goals: 556
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 40%
+* Total number of goals: 102
+* Number of covered goals: 41
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 63
+* Number of covered goals: 63
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 71%
+* Total number of goals: 63
+* Number of covered goals: 45
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 30%
+* Total number of goals: 707
+* Number of covered goals: 214
+* Generated 122 tests with total length 463
+* Resulting test suite's coverage: 52% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 14%
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'DefaultJSONParser_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s18/fastjson/evosuite-tests
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: com.alibaba.fastjson.JSONArray
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: com.alibaba.fastjson.parser.JSONScanner
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: com.alibaba.fastjson.JSONWriter
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: com.alibaba.fastjson.JSONValidator
+* Starting Client-0
+* Starting Client-0
+* Connecting to master process on port 10053
+* Connecting to master process on port 10054
+* Starting Client-0
+* Starting Client-0
+* Connecting to master process on port 10056
+* Connecting to master process on port 10058
+* Analyzing classpath: 
+* Analyzing classpath: 
+* Analyzing classpath: 
+* Analyzing classpath: 
+  - /home/apaniche/mitchell/generation-scripts/projects/fastjson/fastjson-1.2.68.jar
+  - /home/apaniche/mitchell/generation-scripts/projects/fastjson/fastjson-1.2.68.jar
+  - /home/apaniche/mitchell/generation-scripts/projects/fastjson/fastjson-1.2.68.jar
+* Finished analyzing classpath
+* Generating tests for class com.alibaba.fastjson.JSONWriter
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 429
+* Using seed 18
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 130 / 429
+* Finished analyzing classpath
+* Generating tests for class com.alibaba.fastjson.JSONValidator
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 1127
+* Using seed 18
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 268 / 1127
+[MASTER] 00:03:17.803 [logback-1] WARN  CheapPurityAnalyzer - com.google.common.collect.ArrayListMultimap was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 00:03:17.804 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: com.google.common.collect.ArrayListMultimap
+* Finished analyzing classpath
+* Generating tests for class com.alibaba.fastjson.JSONArray
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 1055
+* Using seed 18
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 674 / 1055
+[MASTER] 00:03:18.500 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 00:03:18.500 [logback-2] ERROR TestCluster - Failed to check cache for java.util.HashMap<K, V> : Type points to itself
+[MASTER] 00:03:19.336 [logback-2] ERROR TestCluster - Failed to check cache for java.lang.reflect.Constructor<T> : Type points to itself
+[MASTER] 00:03:19.824 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+  - /home/apaniche/mitchell/generation-scripts/projects/fastjson/fastjson-1.2.68.jar
+* Finished analyzing classpath
+* Generating tests for class com.alibaba.fastjson.parser.JSONScanner
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 5652
+* Using seed 18
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 470 / 5652
+[MASTER] 00:03:23.020 [logback-1] WARN  CheapPurityAnalyzer - com.google.common.collect.ArrayListMultimap was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 00:03:23.022 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: com.google.common.collect.ArrayListMultimap
+[MASTER] 00:03:39.776 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+[MASTER] 00:03:41.026 [logback-2] ERROR TestCluster - Failed to check cache for java.lang.reflect.Constructor<T> : Type points to itself
+* Search finished after 121s and 1538 generations, 584849 statements, best individual has fitness: 32.0
+* Minimizing test suite
+* Search finished after 121s and 44 generations, 18099 statements, best individual has fitness: 362.0
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 97
+* Number of covered goals: 97
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 93%
+* Total number of goals: 76
+* Number of covered goals: 71
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 20
+* Number of covered goals: 20
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 99%
+* Total number of goals: 148
+* Number of covered goals: 146
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100% (no goals)
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 16
+* Number of covered goals: 16
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 16
+* Number of covered goals: 16
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 93%
+* Total number of goals: 76
+* Number of covered goals: 71
+* Generated 30 tests with total length 116
+* Resulting test suite's coverage: 92% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 19%
+* Compiling and checking tests
+* Minimizing test suite
+* Search finished after 122s and 88 generations, 27325 statements, best individual has fitness: 219.0
+* Minimizing test suite
+* Search finished after 125s and 319 generations, 161677 statements, best individual has fitness: 3522.0
+* Minimizing test suite
+* Writing tests to file
+* Writing JUnit test case 'JSONWriter_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s18/fastjson/evosuite-tests
+* Done!
+
+* Computation finished
+[MASTER] 00:05:34.223 [main] ERROR RuntimeVariable - Obtained invalid goal count: covered 437 out of 429
+[MASTER] 00:05:34.224 [main] ERROR SearchStatistics - Not going to write down statistics data, as some data is invalid
+[MASTER] 00:05:34.324 [main] ERROR TestGeneration - failed to write statistics data
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 60%
+* Total number of goals: 266
+* Number of covered goals: 160
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 58%
+* Total number of goals: 212
+* Number of covered goals: 122
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 14
+* Number of covered goals: 14
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 90%
+* Total number of goals: 375
+* Number of covered goals: 338
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 64%
+* Total number of goals: 14
+* Number of covered goals: 9
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 96%
+* Total number of goals: 24
+* Number of covered goals: 23
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 83%
+* Total number of goals: 24
+* Number of covered goals: 20
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 58%
+* Total number of goals: 212
+* Number of covered goals: 122
+* Generated 49 tests with total length 181
+* Resulting test suite's coverage: 60% (average coverage for all fitness functions)
+* Generating assertions
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 91%
+* Total number of goals: 173
+* Number of covered goals: 158
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 89%
+* Total number of goals: 101
+* Number of covered goals: 90
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 92
+* Number of covered goals: 92
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 95%
+* Total number of goals: 325
+* Number of covered goals: 309
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 54%
+* Total number of goals: 219
+* Number of covered goals: 118
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 68
+* Number of covered goals: 68
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 68
+* Number of covered goals: 68
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 89%
+* Total number of goals: 101
+* Number of covered goals: 90
+* Generated 197 tests with total length 529
+* Resulting test suite's coverage: 85% (average coverage for all fitness functions)
+* Generating assertions
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 38%
+* Total number of goals: 1857
+* Number of covered goals: 707
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 33%
+* Total number of goals: 1519
+* Number of covered goals: 508
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 58
+* Number of covered goals: 58
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 59%
+* Total number of goals: 567
+* Number of covered goals: 337
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 62%
+* Total number of goals: 94
+* Number of covered goals: 58
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 48
+* Number of covered goals: 48
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 92%
+* Total number of goals: 48
+* Number of covered goals: 44
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 29%
+* Total number of goals: 1519
+* Number of covered goals: 443
+* Generated 225 tests with total length 575
+* Resulting test suite's coverage: 59% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 74%
+* Compiling and checking tests
+* Resulting test suite's mutation score: 32%
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'JSONValidator_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s18/fastjson/evosuite-tests
+* Done!
+
+* Computation finished
+* Resulting test suite's mutation score: 15%
+* Compiling and checking tests
+[MASTER] 00:07:10.098 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.AssertionError: Expecting exception: StringIndexOutOfBoundsException
+[MASTER] 00:07:10.099 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ JSONScanner jSONScanner0 = new JSONScanner("");
+jSONScanner0.next();
+DefaultJSONParser defaultJSONParser0 = new DefaultJSONParser(jSONScanner0);
+jSONScanner0.scanTypeName(defaultJSONParser0.symbolTable);
+
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing tests to file
+* Writing JUnit test case 'JSONArray_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s18/fastjson/evosuite-tests
+* Done!
+
+* Computation finished
+* Writing tests to file
+* Writing JUnit test case 'JSONScanner_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s18/fastjson/evosuite-tests
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: com.alibaba.fastjson.JSONObject
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: com.alibaba.fastjson.parser.JSONReaderScanner
+* Starting Client-0
+* Starting Client-0
+* Connecting to master process on port 10058
+* Connecting to master process on port 10054
+* Analyzing classpath: 
+* Analyzing classpath: 
+  - /home/apaniche/mitchell/generation-scripts/projects/fastjson/fastjson-1.2.68.jar
+  - /home/apaniche/mitchell/generation-scripts/projects/fastjson/fastjson-1.2.68.jar
+* Finished analyzing classpath
+* Generating tests for class com.alibaba.fastjson.parser.JSONReaderScanner
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 1110
+* Using seed 18
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 338 / 1110
+[MASTER] 00:07:53.200 [logback-1] WARN  CheapPurityAnalyzer - com.google.common.collect.ArrayListMultimap was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 00:07:53.205 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: com.google.common.collect.ArrayListMultimap
+[MASTER] 00:07:53.407 [logback-1] WARN  CheapPurityAnalyzer - com.google.common.collect.ArrayListMultimap was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 00:07:53.409 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: com.google.common.collect.ArrayListMultimap
+* Finished analyzing classpath
+* Generating tests for class com.alibaba.fastjson.JSONObject
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 1211
+* Using seed 18
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 496 / 1211
+[MASTER] 00:07:54.479 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 00:07:54.480 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 00:07:54.480 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 00:07:54.483 [logback-2] ERROR TestCluster - Failed to check cache for java.util.HashMap<K, V> : Type points to itself
+[MASTER] 00:07:55.639 [logback-2] ERROR TestCluster - Failed to check cache for java.lang.reflect.Constructor<T> : Type points to itself
+[MASTER] 00:08:06.539 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+[MASTER] 00:08:13.256 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 00:08:16.210 [logback-2] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
+* Search finished after 121s and 25 generations, 13679 statements, best individual has fitness: 195.0
+* Minimizing test suite
+* Search finished after 121s and 67 generations, 23191 statements, best individual has fitness: 536.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 59%
+* Total number of goals: 254
+* Number of covered goals: 151
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 50%
+* Total number of goals: 172
+* Number of covered goals: 86
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 96%
+* Total number of goals: 25
+* Number of covered goals: 24
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 58%
+* Total number of goals: 333
+* Number of covered goals: 192
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 37%
+* Total number of goals: 162
+* Number of covered goals: 60
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 95%
+* Total number of goals: 59
+* Number of covered goals: 56
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 92%
+* Total number of goals: 59
+* Number of covered goals: 54
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 49%
+* Total number of goals: 172
+* Number of covered goals: 85
+* Generated 87 tests with total length 235
+* Resulting test suite's coverage: 63% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 15%
+* Compiling and checking tests
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 83%
+* Total number of goals: 156
+* Number of covered goals: 129
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 77%
+* Total number of goals: 104
+* Number of covered goals: 80
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 36
+* Number of covered goals: 36
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 90%
+* Total number of goals: 662
+* Number of covered goals: 598
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 52%
+* Total number of goals: 40
+* Number of covered goals: 21
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 22
+* Number of covered goals: 22
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 95%
+* Total number of goals: 22
+* Number of covered goals: 21
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 77%
+* Total number of goals: 104
+* Number of covered goals: 80
+* Generated 76 tests with total length 229
+* Resulting test suite's coverage: 79% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 00:10:20.197 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.StackOverflowError: null
+[MASTER] 00:10:20.198 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ TreeMap<String, Object> treeMap0 = new TreeMap<String, Object>();
+JSONObject jSONObject0 = new JSONObject(treeMap0);
+treeMap0.put("1.2.68", jSONObject0);
+boolean boolean0 = jSONObject0.containsValue(jSONObject0);
+assertTrue(boolean0);
+
+
+* Writing tests to file
+* Writing JUnit test case 'JSONObject_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s18/fastjson/evosuite-tests
+* Done!
+
+* Computation finished
+* Resulting test suite's mutation score: 28%
+* Compiling and checking tests
+[MASTER] 00:11:19.868 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.NegativeArraySizeException: null
+[MASTER] 00:11:19.869 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ JSONReaderScanner jSONReaderScanner0 = new JSONReaderScanner("", 2462);
+jSONReaderScanner0.sp = 2462;
+assertEquals('\u0000', jSONReaderScanner0.getCurrent());
+
+byte[] byteArray0 = jSONReaderScanner0.bytesValue();
+assertEquals(9, byteArray0.length);
+
+
+* Writing tests to file
+* Writing JUnit test case 'JSONReaderScanner_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s18/fastjson/evosuite-tests
+* Done!
+
+* Computation finished
+* EvoSuite 1.0.7-SNAPSHOT
+* Configuration: EvoSuite_vanilla
+* Going to generate test cases for class: com.alibaba.fastjson.JSONPath
+* Starting Client-0
+* Connecting to master process on port 10053
+* Analyzing classpath: 
+  - /home/apaniche/mitchell/generation-scripts/projects/fastjson/fastjson-1.2.68.jar
+[MASTER] 00:15:10.690 [logback-1] WARN  CheapPurityAnalyzer - com.google.common.collect.ArrayListMultimap was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 00:15:10.691 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: com.google.common.collect.ArrayListMultimap
+* Finished analyzing classpath
+* Generating tests for class com.alibaba.fastjson.JSONPath
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 7058
+* Using seed 18
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 865 / 7058
+[MASTER] 00:15:12.749 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 00:15:12.762 [logback-2] ERROR TestCluster - Failed to check cache for java.util.ArrayDeque<E> : Type points to itself
+[MASTER] 00:15:12.762 [logback-2] ERROR TestCluster - Failed to check cache for java.util.ArrayList<E> : Type points to itself
+[MASTER] 00:15:12.763 [logback-2] ERROR TestCluster - Failed to check cache for java.util.EnumSet<E> : Type points to itself
+[MASTER] 00:15:12.763 [logback-2] ERROR TestCluster - Failed to check cache for java.util.HashSet<E> : Type points to itself
+[MASTER] 00:15:12.763 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedHashSet<E> : Type points to itself
+[MASTER] 00:15:12.763 [logback-2] ERROR TestCluster - Failed to check cache for java.util.PriorityQueue<E> : Type points to itself
+[MASTER] 00:15:12.763 [logback-2] ERROR TestCluster - Failed to check cache for java.util.ServiceLoader<S> : Type points to itself
+[MASTER] 00:15:12.764 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Stack<E> : Type points to itself
+[MASTER] 00:15:12.764 [logback-2] ERROR TestCluster - Failed to check cache for java.util.TreeSet<E> : Type points to itself
+[MASTER] 00:15:12.765 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Vector<E> : Type points to itself
+[MASTER] 00:15:12.765 [logback-2] ERROR TestCluster - Failed to check cache for java.util.HashMap<K, V> : Type points to itself
+[MASTER] 00:15:12.772 [logback-2] ERROR TestCluster - Failed to check cache for java.lang.Enum<E> : Type points to itself
+[MASTER] 00:15:12.776 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 00:15:12.776 [logback-2] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 00:15:20.703 [logback-2] ERROR ClientNodeImpl - Cannot inform master of change of state
+java.rmi.ServerException: RemoteException occurred in server thread; nested exception is: 
+	java.rmi.UnmarshalException: error unmarshalling arguments; nested exception is: 
+	java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/parser/deserializer/FastjsonASMDeserializer_3_Object.class' should be in target project, but could not be found!
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:393) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_161]
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:283) ~[na:1.8.0_161]
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:260) ~[na:1.8.0_161]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161) ~[na:1.8.0_161]
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227) ~[na:1.8.0_161]
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179) ~[na:1.8.0_161]
+	at com.sun.proxy.$Proxy7.evosuite_collectStatistics(Unknown Source) ~[na:na]
+	at org.evosuite.rmi.service.ClientNodeImpl.updateStatistics(ClientNodeImpl.java:266) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.statistics.StatisticsSender.sendIndividualToMaster(StatisticsSender.java:68) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.statistics.StatisticsListener.lambda$new$0(StatisticsListener.java:69) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_161]
+Caused by: java.rmi.UnmarshalException: error unmarshalling arguments; nested exception is: 
+	java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/parser/deserializer/FastjsonASMDeserializer_3_Object.class' should be in target project, but could not be found!
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:352) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_161]
+	... 1 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/parser/deserializer/FastjsonASMDeserializer_3_Object.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:203) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.getClass(GenericClass.java:149) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.getClass(GenericClass.java:115) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.readObject(GenericClass.java:1720) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:426) ~[na:1.8.0_161]
+	at java.util.ArrayList.readObject(ArrayList.java:797) ~[na:1.8.0_161]
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadObject(ObjectInputStream.java:556) ~[na:1.8.0_161]
+	at org.evosuite.testcase.DefaultTestCase.readObject(DefaultTestCase.java:1103) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at sun.reflect.GeneratedMethodAccessor16.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:426) ~[na:1.8.0_161]
+	at java.util.ArrayList.readObject(ArrayList.java:797) ~[na:1.8.0_161]
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:426) ~[na:1.8.0_161]
+	at sun.rmi.server.UnicastRef.unmarshalValue(UnicastRef.java:322) ~[na:1.8.0_161]
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:341) ~[na:1.8.0_161]
+	... 12 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/parser/deserializer/FastjsonASMDeserializer_3_Object.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:190) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	... 74 common frames omitted
+[MASTER] 00:16:19.451 [logback-2] ERROR ClientNodeImpl - Cannot inform master of change of state
+java.rmi.ServerException: RemoteException occurred in server thread; nested exception is: 
+	java.rmi.UnmarshalException: error unmarshalling arguments; nested exception is: 
+	java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/parser/deserializer/FastjsonASMDeserializer_3_Object.class' should be in target project, but could not be found!
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:393) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_161]
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:283) ~[na:1.8.0_161]
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:260) ~[na:1.8.0_161]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161) ~[na:1.8.0_161]
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227) ~[na:1.8.0_161]
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179) ~[na:1.8.0_161]
+	at com.sun.proxy.$Proxy7.evosuite_collectStatistics(Unknown Source) ~[na:na]
+	at org.evosuite.rmi.service.ClientNodeImpl.updateStatistics(ClientNodeImpl.java:266) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.statistics.StatisticsSender.sendIndividualToMaster(StatisticsSender.java:68) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.statistics.StatisticsListener.lambda$new$0(StatisticsListener.java:69) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_161]
+Caused by: java.rmi.UnmarshalException: error unmarshalling arguments; nested exception is: 
+	java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/parser/deserializer/FastjsonASMDeserializer_3_Object.class' should be in target project, but could not be found!
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:352) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_161]
+	... 1 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/parser/deserializer/FastjsonASMDeserializer_3_Object.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:203) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.getClass(GenericClass.java:149) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.getClass(GenericClass.java:115) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.readObject(GenericClass.java:1720) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:426) ~[na:1.8.0_161]
+	at java.util.ArrayList.readObject(ArrayList.java:797) ~[na:1.8.0_161]
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadObject(ObjectInputStream.java:556) ~[na:1.8.0_161]
+	at org.evosuite.testcase.DefaultTestCase.readObject(DefaultTestCase.java:1103) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at sun.reflect.GeneratedMethodAccessor16.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:426) ~[na:1.8.0_161]
+	at java.util.ArrayList.readObject(ArrayList.java:797) ~[na:1.8.0_161]
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:426) ~[na:1.8.0_161]
+	at sun.rmi.server.UnicastRef.unmarshalValue(UnicastRef.java:322) ~[na:1.8.0_161]
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:341) ~[na:1.8.0_161]
+	... 12 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/parser/deserializer/FastjsonASMDeserializer_3_Object.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:190) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	... 74 common frames omitted
+[MASTER] 00:16:47.763 [logback-2] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
+* Search finished after 125s and 164 generations, 121532 statements, best individual has fitness: 3640.0
+[MASTER] 00:17:17.960 [logback-2] ERROR ClientNodeImpl - Cannot inform master of change of state
+java.rmi.ServerException: RemoteException occurred in server thread; nested exception is: 
+	java.rmi.UnmarshalException: error unmarshalling arguments; nested exception is: 
+	java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/parser/deserializer/FastjsonASMDeserializer_3_Object.class' should be in target project, but could not be found!
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:393) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_161]
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:283) ~[na:1.8.0_161]
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:260) ~[na:1.8.0_161]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161) ~[na:1.8.0_161]
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227) ~[na:1.8.0_161]
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179) ~[na:1.8.0_161]
+	at com.sun.proxy.$Proxy7.evosuite_collectStatistics(Unknown Source) ~[na:na]
+	at org.evosuite.rmi.service.ClientNodeImpl.updateStatistics(ClientNodeImpl.java:266) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.statistics.StatisticsSender.sendIndividualToMaster(StatisticsSender.java:68) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.statistics.StatisticsListener.lambda$new$0(StatisticsListener.java:69) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_161]
+Caused by: java.rmi.UnmarshalException: error unmarshalling arguments; nested exception is: 
+	java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/parser/deserializer/FastjsonASMDeserializer_3_Object.class' should be in target project, but could not be found!
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:352) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_161]
+	... 1 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/parser/deserializer/FastjsonASMDeserializer_3_Object.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:203) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.getClass(GenericClass.java:149) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.getClass(GenericClass.java:115) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.readObject(GenericClass.java:1720) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:426) ~[na:1.8.0_161]
+	at java.util.ArrayList.readObject(ArrayList.java:797) ~[na:1.8.0_161]
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadObject(ObjectInputStream.java:556) ~[na:1.8.0_161]
+	at org.evosuite.testcase.DefaultTestCase.readObject(DefaultTestCase.java:1103) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at sun.reflect.GeneratedMethodAccessor16.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:426) ~[na:1.8.0_161]
+	at java.util.ArrayList.readObject(ArrayList.java:797) ~[na:1.8.0_161]
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:426) ~[na:1.8.0_161]
+	at sun.rmi.server.UnicastRef.unmarshalValue(UnicastRef.java:322) ~[na:1.8.0_161]
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:341) ~[na:1.8.0_161]
+	... 12 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/parser/deserializer/FastjsonASMDeserializer_3_Object.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:190) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	... 74 common frames omitted
+[MASTER] 00:17:20.904 [logback-2] ERROR ClientNodeImpl - Cannot inform master of change of state
+java.rmi.ServerException: RemoteException occurred in server thread; nested exception is: 
+	java.rmi.UnmarshalException: error unmarshalling arguments; nested exception is: 
+	java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/parser/deserializer/FastjsonASMDeserializer_3_Object.class' should be in target project, but could not be found!
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:393) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_161]
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:283) ~[na:1.8.0_161]
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:260) ~[na:1.8.0_161]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161) ~[na:1.8.0_161]
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227) ~[na:1.8.0_161]
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179) ~[na:1.8.0_161]
+	at com.sun.proxy.$Proxy7.evosuite_collectStatistics(Unknown Source) ~[na:na]
+	at org.evosuite.rmi.service.ClientNodeImpl.updateStatistics(ClientNodeImpl.java:266) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.statistics.StatisticsSender.sendIndividualToMaster(StatisticsSender.java:68) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.statistics.StatisticsSender.executedAndThenSendIndividualToMaster(StatisticsSender.java:98) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:687) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:245) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.rmi.service.ClientNodeImpl.lambda$startNewSearch$0(ClientNodeImpl.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[na:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_161]
+Caused by: java.rmi.UnmarshalException: error unmarshalling arguments; nested exception is: 
+	java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/parser/deserializer/FastjsonASMDeserializer_3_Object.class' should be in target project, but could not be found!
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:352) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682) ~[na:1.8.0_161]
+	... 3 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/parser/deserializer/FastjsonASMDeserializer_3_Object.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:203) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.getClass(GenericClass.java:149) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.getClass(GenericClass.java:115) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.readObject(GenericClass.java:1720) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:426) ~[na:1.8.0_161]
+	at java.util.ArrayList.readObject(ArrayList.java:797) ~[na:1.8.0_161]
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadObject(ObjectInputStream.java:556) ~[na:1.8.0_161]
+	at org.evosuite.testcase.DefaultTestCase.readObject(DefaultTestCase.java:1103) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at sun.reflect.GeneratedMethodAccessor16.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:426) ~[na:1.8.0_161]
+	at java.util.ArrayList.readObject(ArrayList.java:797) ~[na:1.8.0_161]
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:426) ~[na:1.8.0_161]
+	at sun.rmi.server.UnicastRef.unmarshalValue(UnicastRef.java:322) ~[na:1.8.0_161]
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:341) ~[na:1.8.0_161]
+	... 12 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/parser/deserializer/FastjsonASMDeserializer_3_Object.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:190) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	... 74 common frames omitted
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 56%
+* Total number of goals: 2079
+* Number of covered goals: 1161
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 44%
+* Total number of goals: 1850
+* Number of covered goals: 822
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 99%
+* Total number of goals: 119
+* Number of covered goals: 118
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 59%
+* Total number of goals: 913
+* Number of covered goals: 541
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 66%
+* Total number of goals: 114
+* Number of covered goals: 75
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 99%
+* Total number of goals: 126
+* Number of covered goals: 125
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 94%
+* Total number of goals: 126
+* Number of covered goals: 119
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 42%
+* Total number of goals: 1850
+* Number of covered goals: 770
+* Generated 334 tests with total length 1093
+* Resulting test suite's coverage: 51% (average coverage for all fitness functions)
+[MASTER] 00:18:46.297 [logback-2] ERROR ClientNodeImpl - Cannot inform master of change of state
+java.rmi.ServerException: RemoteException occurred in server thread; nested exception is: 
+	java.rmi.UnmarshalException: error unmarshalling arguments; nested exception is: 
+	java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/parser/deserializer/FastjsonASMDeserializer_2_Object.class' should be in target project, but could not be found!
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:393) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_161]
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:283) ~[na:1.8.0_161]
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:260) ~[na:1.8.0_161]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161) ~[na:1.8.0_161]
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227) ~[na:1.8.0_161]
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179) ~[na:1.8.0_161]
+	at com.sun.proxy.$Proxy7.evosuite_collectStatistics(Unknown Source) ~[na:na]
+	at org.evosuite.rmi.service.ClientNodeImpl.updateStatistics(ClientNodeImpl.java:266) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.statistics.StatisticsSender.sendIndividualToMaster(StatisticsSender.java:68) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.statistics.StatisticsSender.executedAndThenSendIndividualToMaster(StatisticsSender.java:98) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.TestSuiteGenerator.postProcessTests(TestSuiteGenerator.java:484) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:255) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.rmi.service.ClientNodeImpl.lambda$startNewSearch$0(ClientNodeImpl.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[na:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_161]
+Caused by: java.rmi.UnmarshalException: error unmarshalling arguments; nested exception is: 
+	java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/parser/deserializer/FastjsonASMDeserializer_2_Object.class' should be in target project, but could not be found!
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:352) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682) ~[na:1.8.0_161]
+	... 3 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/parser/deserializer/FastjsonASMDeserializer_2_Object.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:203) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.getClass(GenericClass.java:149) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.getClass(GenericClass.java:115) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.readObject(GenericClass.java:1720) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:426) ~[na:1.8.0_161]
+	at java.util.ArrayList.readObject(ArrayList.java:797) ~[na:1.8.0_161]
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadObject(ObjectInputStream.java:556) ~[na:1.8.0_161]
+	at org.evosuite.testcase.DefaultTestCase.readObject(DefaultTestCase.java:1103) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at sun.reflect.GeneratedMethodAccessor16.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:426) ~[na:1.8.0_161]
+	at java.util.ArrayList.readObject(ArrayList.java:797) ~[na:1.8.0_161]
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:426) ~[na:1.8.0_161]
+	at sun.rmi.server.UnicastRef.unmarshalValue(UnicastRef.java:322) ~[na:1.8.0_161]
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:341) ~[na:1.8.0_161]
+	... 12 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/parser/deserializer/FastjsonASMDeserializer_2_Object.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:190) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	... 74 common frames omitted
+* Generating assertions
+[MASTER] 00:18:48.064 [logback-1] WARN  GenericClass - Class not found: class com.alibaba.fastjson.parser.deserializer.FastjsonASMDeserializer_2_Object - keeping old class loader 
+java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/parser/deserializer/FastjsonASMDeserializer_2_Object.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:203) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.getClass(GenericClass.java:149) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.changeClassLoader(GenericClass.java:331) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.variable.VariableReferenceImpl.changeClassLoader(VariableReferenceImpl.java:575) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.lambda$changeClassLoader$2(AbstractStatement.java:489) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.statements.AbstractStatement.changeClassLoader(AbstractStatement.java:489) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.MethodStatement.changeClassLoader(MethodStatement.java:616) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.DefaultTestCase.changeClassLoader(DefaultTestCase.java:265) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionGenerator.changeClassLoader(AssertionGenerator.java:234) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.MutationAssertionGenerator.setupClassLoader(MutationAssertionGenerator.java:188) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.SimpleMutationAssertionGenerator.addAssertions(SimpleMutationAssertionGenerator.java:57) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.TestSuiteGeneratorHelper.addAssertions(TestSuiteGeneratorHelper.java:287) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.TestSuiteGenerator.postProcessTests(TestSuiteGenerator.java:542) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.rmi.service.ClientNodeImpl.lambda$startNewSearch$0(ClientNodeImpl.java:155) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[na:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_161]
+Caused by: java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/parser/deserializer/FastjsonASMDeserializer_2_Object.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:190) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	... 21 common frames omitted
+[MASTER] 00:18:48.066 [logback-1] WARN  GenericClass - Class not found: class com.alibaba.fastjson.parser.deserializer.FastjsonASMDeserializer_2_Object - keeping old class loader 
+java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/parser/deserializer/FastjsonASMDeserializer_2_Object.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:203) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.getClass(GenericClass.java:149) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.changeClassLoader(GenericClass.java:331) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.variable.VariableReferenceImpl.changeClassLoader(VariableReferenceImpl.java:575) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.AbstractStatement.lambda$changeClassLoader$2(AbstractStatement.java:489) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_161]
+	at org.evosuite.testcase.statements.AbstractStatement.changeClassLoader(AbstractStatement.java:489) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.statements.MethodStatement.changeClassLoader(MethodStatement.java:616) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.testcase.DefaultTestCase.changeClassLoader(DefaultTestCase.java:265) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.AssertionGenerator.changeClassLoader(AssertionGenerator.java:234) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.MutationAssertionGenerator.setupClassLoader(MutationAssertionGenerator.java:188) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.assertion.SimpleMutationAssertionGenerator.addAssertions(SimpleMutationAssertionGenerator.java:57) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.TestSuiteGeneratorHelper.addAssertions(TestSuiteGeneratorHelper.java:287) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.TestSuiteGenerator.postProcessTests(TestSuiteGenerator.java:542) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:255) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.rmi.service.ClientNodeImpl.lambda$startNewSearch$0(ClientNodeImpl.java:155) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[na:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_161]
+Caused by: java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/parser/deserializer/FastjsonASMDeserializer_2_Object.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:190) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	... 21 common frames omitted
+* Resulting test suite's mutation score: 28%
+* Compiling and checking tests
+[MASTER] 00:20:11.790 [logback-2] ERROR ClientNodeImpl - Cannot inform master of change of state
+java.rmi.ServerException: RemoteException occurred in server thread; nested exception is: 
+	java.rmi.UnmarshalException: error unmarshalling arguments; nested exception is: 
+	java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/parser/deserializer/FastjsonASMDeserializer_15_Object.class' should be in target project, but could not be found!
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:393) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_161]
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:283) ~[na:1.8.0_161]
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:260) ~[na:1.8.0_161]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161) ~[na:1.8.0_161]
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227) ~[na:1.8.0_161]
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179) ~[na:1.8.0_161]
+	at com.sun.proxy.$Proxy7.evosuite_collectStatistics(Unknown Source) ~[na:na]
+	at org.evosuite.rmi.service.ClientNodeImpl.updateStatistics(ClientNodeImpl.java:266) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.statistics.StatisticsSender.sendIndividualToMaster(StatisticsSender.java:68) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.TestSuiteGenerator.postProcessTests(TestSuiteGenerator.java:544) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:255) [evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.rmi.service.ClientNodeImpl.lambda$startNewSearch$0(ClientNodeImpl.java:155) [evosuite.jar:1.0.7-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[na:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_161]
+Caused by: java.rmi.UnmarshalException: error unmarshalling arguments; nested exception is: 
+	java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/parser/deserializer/FastjsonASMDeserializer_15_Object.class' should be in target project, but could not be found!
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:352) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683) ~[na:1.8.0_161]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_161]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682) ~[na:1.8.0_161]
+	... 3 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/parser/deserializer/FastjsonASMDeserializer_15_Object.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:203) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.getClass(GenericClass.java:149) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.getClass(GenericClass.java:115) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at org.evosuite.utils.generic.GenericClass.readObject(GenericClass.java:1720) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:426) ~[na:1.8.0_161]
+	at java.util.ArrayList.readObject(ArrayList.java:797) ~[na:1.8.0_161]
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadObject(ObjectInputStream.java:556) ~[na:1.8.0_161]
+	at org.evosuite.testcase.DefaultTestCase.readObject(DefaultTestCase.java:1103) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	at sun.reflect.GeneratedMethodAccessor16.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:426) ~[na:1.8.0_161]
+	at java.util.ArrayList.readObject(ArrayList.java:797) ~[na:1.8.0_161]
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1158) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2168) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2277) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2201) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2059) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1566) ~[na:1.8.0_161]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:426) ~[na:1.8.0_161]
+	at sun.rmi.server.UnicastRef.unmarshalValue(UnicastRef.java:322) ~[na:1.8.0_161]
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:341) ~[na:1.8.0_161]
+	... 12 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Class 'com/alibaba/fastjson/parser/deserializer/FastjsonASMDeserializer_15_Object.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:190) ~[evosuite.jar:1.0.7-SNAPSHOT]
+	... 74 common frames omitted
+[MASTER] 00:20:24.088 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class com.alibaba.fastjson.JSONPathException: expect '(, but 'D'
+[MASTER] 00:20:24.088 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ JSONPath.ValueSegment jSONPath_ValueSegment0 = new JSONPath.ValueSegment("[?DCbg-:z'L\"", "[?DCbg-:z'L\"", true);
+JSONPath.set((Object) "[?DCbg-:z'L\"", "[?DCbg-:z'L\"", (Object) jSONPath_ValueSegment0);
+
+[MASTER] 00:20:25.262 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class com.alibaba.fastjson.JSONPathException: illeal jsonpath syntax. <n]@v<Z|F6 R?q3
+[MASTER] 00:20:25.263 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ HashMap<String, ClientInfoStatus> hashMap0 = new HashMap<String, ClientInfoStatus>();
+JSONPath.eval((Object) hashMap0, "<n]@v<Z|F6 R?q3");
+
+[MASTER] 00:20:29.958 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class com.alibaba.fastjson.JSONPathException: not support jsonpath : q+>Z
+[MASTER] 00:20:29.958 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ JSONPath.NotNullSegement jSONPath_NotNullSegement0 = new JSONPath.NotNullSegement("");
+JSONPath.FilterSegment jSONPath_FilterSegment0 = new JSONPath.FilterSegment(jSONPath_NotNullSegement0);
+JSONPath.size((Object) jSONPath_FilterSegment0, "q+>Z");
+
+[MASTER] 00:20:32.103 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class com.alibaba.fastjson.JSONPathException: json-path can not be null or empty
+[MASTER] 00:20:32.103 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ JSONPath.extract("parser", "");
+
+[MASTER] 00:20:41.575 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.AssertionError: expected:<181> but was:<169>
+[MASTER] 00:20:41.576 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ HashMap<String, ClientInfoStatus> hashMap0 = new HashMap<String, ClientInfoStatus>();
+SQLInvalidAuthorizationSpecException sQLInvalidAuthorizationSpecException0 = new SQLInvalidAuthorizationSpecException("q+>Z", "q+>Z");
+SQLClientInfoException sQLClientInfoException0 = new SQLClientInfoException("q+>Z", "Yp.!C\"jbf_pi)", hashMap0, sQLInvalidAuthorizationSpecException0);
+Map<String, Object> map0 = JSONPath.paths((Object) sQLClientInfoException0);
+assertEquals(181, map0.size());
+
+
+[MASTER] 00:20:42.777 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class com.alibaba.fastjson.JSONPathException: not support jsonpath : tB7!#e/r#Q9z4Se
+[MASTER] 00:20:42.777 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ JSONPath jSONPath0 = JSONPath.compile("tB7!#e/r#Q9z4Se");
+jSONPath0.eval((Object) "tB7!#e/r#Q9z4Se");
+
+[MASTER] 00:20:44.461 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class com.alibaba.fastjson.JSONPathException: illeal jsonpath syntax. [MQ4[)UbtN_PRg#pu
+[MASTER] 00:20:44.462 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ Short short0 = new Short((short)318);
+JSONPath.keySet((Object) short0, "[MQ4[)UbtN_PRg#pu");
+
+[MASTER] 00:20:45.160 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class com.alibaba.fastjson.JSONPathException: not support jsonpath : KU[~)@Z]k YH(p
+[MASTER] 00:20:45.160 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ JSONPath jSONPath0 = JSONPath.compile("KU[~)@Z]k YH(p");
+JSONPath.PropertySegment jSONPath_PropertySegment0 = new JSONPath.PropertySegment("!`#&_nO&&=AHN", false);
+jSONPath0.set((Object) jSONPath_PropertySegment0, (Object) null, true);
+
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing tests to file
+* Writing JUnit test case 'JSONPath_ESTest' to /home/apaniche/mitchell/generation-scripts/evosuite_vanilla/tests/s18/fastjson/evosuite-tests
+* Done!
+
+* Computation finished
+[MASTER] 00:21:10.311 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 00:21:10.413 [main] ERROR TestGeneration - failed to write statistics data
