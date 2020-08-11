@@ -26,3 +26,6 @@ To run the entire experiment, just run the following command (after using the ge
 The scripts in this folder are based on the python/bash scripts available in the EvoSuite website: https://www.evosuite.org
 
 The scripts have been tested on Ubuntu and macOS machines. They require `python3` and the `coreutils` GNU utility.
+
+## Authors
+Mitchell Olsthoorn and Annibale Panichella
