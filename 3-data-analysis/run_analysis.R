@@ -1,0 +1,7 @@
+source("src/0_import_data.R")
+source("src/1_compare_strategies.R")
+source("src/2_process_data.R")
+source("src/3_export_latex-table.R")
+source("src/4_gather_general_stats.R")
+source("src/5_calculate_branches_covered.R")
+source("src/6_plot_results.R")
