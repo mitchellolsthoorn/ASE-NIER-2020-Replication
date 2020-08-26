@@ -78,7 +78,9 @@ To generate the test cases and calculate the code coverage, follow the below ste
 	
 2. Follow the instructions in the *README.md* file inside the directory
 
-3. Copy the results of the execution in the *3-data-analysis* directory
+3. The current search budget is set at 120 seconds. To change the search budgets, modify line 129 in the *experiments_evosuite_fuzzer.py* and *experiments_evosuite_vanilla.py* files. For example, change `result += ' -Dsearch_budget=120'` into `result += ' -Dsearch_budget=60'`.
+
+4. Copy the results of the execution in the *3-data-analysis/data/raw* directory
 
 # Data Analysis
 
@@ -89,6 +91,8 @@ To perform the data analysis, follow the below steps:
 	```bash
 	cd 3-data-analysis
 	```
+
+2. Open R project
 
 2. Run the *run_analysis.R* file 
 
